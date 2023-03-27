@@ -1,6 +1,14 @@
 # turma-tarde-2023 - 2024
 Conteúdo passado em aula
 
+---------------------------
+#Acesso ao repositório de aula, conteúdo 
+
+https://github.com/EdsonTiepermann
+
+Repositório: turma-tarde-2023
+
+
 <details>
 <summary>Aula 01 - dia 13 de Março: Introdução ao curso</summary>
 
@@ -407,20 +415,148 @@ Já existentes em alguns laboratórios, porém distante da maioria;
 </details>
 
 <details>
-<summary>Aula 05 - dia 24 de Março: Introdução a Internet</summary>
+<summary>Aula 05 - dia 27 de Março: Introdução a Internet</summary>
   
 - O que é a Internet
   - Rede global de computadores
   - União de um enorme número de redes ao redor do mundo através do protocolo TCP/IP
-
   
+- Rede Lan - Local Area Network.
+    - Rede geograficamente pequena;
+- Rede Wan - Wide Area Network.
+    - Rede geograficamente grande;
   
+- Dividida entre o Hardware e Software;
+ - Com troca de TCP entre os IPs;
 
+  - link para vídeo de como a internet funciona
+  
+https://www.youtube.com/watch?v=AABqPceCwZk
+  
+- link para o site em tempo real das fibras sunmersas.
+  
+  - https://www.submarinecablemap.com/
+  
+- Software;
+  
+    - Série de protocolos;
+      - TCP/IP (envio e recebimento)
+      - Transmission Control Prococo + Internet Protocol
+    - HTTP e HTTPS (sites)
+      - HyperText Transfer Protocol
+    - XMPP (Comunicação instantânea)
+      - Extensible Messaging and Presence Protocol
+    - POP, IMAP e SMTP (e-mails)
+    - DHCP (Modens, wi-fi, modens de provedores etc)
+      - Dynamic Host Configuration Protocol
+    - FTP, SFTP e FTPS (arquivos)
+      - File Transfer Protocol
+    - SSH (cliente/servidor)
+      - Secure Socket Shell
+    - Entre outros
+  
+- IP
+  - Endereçamento da sua máquina;
+    - IP dinâmico;
+    - IP dedicado;
+  - IPV4;
+    - Suporta mais de 4 bilhões de combinações;
+  - IPV6;
+    - Praticamente ilimitado o número de combinações;
+
+ - mandos para utilizar no prompt de comando
+  
+  - ipconfig
+  - ping 192.168.1.3
+  - ping www.odontoexcellence.com.br
+  - ping www.google.com
+  
+- Tipos de conexão com a Internet
+  
+  - Rádio
+    - Basicamente, o provedor de internet tem uma antena enviando e no cliente uma antena recebendo.
+  - Par metálico 
+    - Onde da central sai os cabos telefônicos, vão até os armários, do armário aos postes onde tem uma caixa de distribuição, e aí então chegam na casa dos clientes.
+  - Coaxial 
+    - Onde da central sai as fibras, vão para a rua, nas caixas de emenda (postes ou subterrâneas), então vão aos transformadores de distribuição, e aí então saem os cabos coaxial e chegam na casa dos clientes.
+  - Via satélite.
+    - A operadora instala a antena na casa do cliente, onde o mesmo recebe o sinal via satélite.
+  - Fibra ótica.
+    - No provedor fazem suas fusões e saem os cabos e vão para rua, nos postes com as caixas de emenda, entre os postes, vão para caixa de atendimento e do atendimento, vão direto para casa do cliente, o modem é diferente pois recebe o sinal óptico.
+  
+- Como acessar e navegar em sites
+  
+  ![image](https://user-images.githubusercontent.com/33090891/228090360-bb525482-4dc4-407d-95c4-9fddd6ff718d.png)
+
+- URL - Uniform Resource Locator
+
+  - Esquema.
+    - HTTP, HTTPS, FTP;
+  - Caminho
+    - Domínio do site
+    - Domínio de alto nível
+
+- Exemplo
+    - http://www.google.com
+  
+- Serviços populares disponíveis na internet
+  
+  - e-mails;
+  - Mídias sociais;
+  - Buscadores;
+  - Sites;
+  - Sistemas;
+  - etc;
+  
+- Tendências e desenvolvimentos futuros da intenet
+  
+  - Internet das coisas.
+  - 5g
+
+- SEGURANÇA CIBERNÉTICA
+  
+- O que é e por que é importante
+  - Segurança:
+    - É o que nos protege de ameaças
+  - Cibernética:
+    - Tudo que não está no mundo real
+  
+- Tipos de ameaças cibernéticas.
+  
+  - Malware.
+    - É o termo genérico para softwares maliciosos que executam ações mal intencionadas em dispositivos e redes.
+  - Vírus
+    - Programas mal intencionados, que se propagam através de outros softwares, assim danificando seus dispositivos e danificando seus dados.
+  - Spyware
+    - Software mal intencionado que coleta informações sobre você e suas atividades online sem que você saiba.
+  - Phishing
+    - Onde os criminosos se disfarçam de uma empresa confiável para obter suas informações pessoais.
+  - Ransomware
+    - Tipo de malware que criptografa seus arquivos e exigem um resgate $$ em troca da chave para a descriptografia.
+  - Adware
+    - Tipo de software que exibe anúncios indesejados em seus dispositivos.
+  
+- Como proteger seu dispositivo e suas informações pessoais
+  
+  - Inserir camadas de segurança;
+  - Manter sempre atualizado com as últimas versões de segurança;
+  - Ter cuidado com o que clica;
+  - Evitar a mesma senhas para várias coisas;
+  
+- Senhas seguras e gestão de senhas
+  - Utilizar frases aleatórias;
+  - Intercalar entre letras e caracteres ou números;
+  - Inserir letras maiúsculas e minúsculas;
+  - Evitar usar números de documentos, placas do veículo, datas, coisas pessoais;
+  - Não deixar senhas anotadas em papéis;
+  - Recomendo não salvar senhas nos navegadores;
 
 </details>
 
+Aula 06 - dia 01 de Abril: Prova de informática básica
+
 <details>
-<summary>Aula 06 - dia 24 de Março: Introdução ao Sistema Operacional</summary>
+<summary>Aula 07 - dia 03 de Abril: </summary>
 
 
 </details>
