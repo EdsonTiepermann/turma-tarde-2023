@@ -236,15 +236,132 @@ O termo surgiu com a junção entre informação e automática.
 </details>
 
 <details>
-<summary>Aula 03 - dia 20 de Março: Introdução ao curso</summary> Apache License 2.0
-Permissões
-Uso comercial, Distribuição, Modificação, Uso de patente, Uso privado;
-Condições
-Licença e aviso de direitos autorais, mudanças na licença deverão ser documentadas;
-Limitações
-Responsabilidade, garantia, uso da marca registrada;
+<summary>Aula 03 - dia 20 de Março: Introdução ao Hardware</summary> 
 
+  - Hardware é a parte física da máquina, formado por componentes eletrônicos, como fios, placas e circuitos;
+  -O Hardware não se limita somente em computadores pessoais, também o encontramos em carros, celulares entre outros.
 
+  - Placa-mãe
+  
+    -Componente responsável por interligar todos os outros componentes do computador, através de slots de expansão como:
+    - PCI
+    - PCI-X
+    - AGP e etc.
+  - Componente de interface de comunicação como:
+    - PS2
+    - SATA
+    - IDE
+    - Serial
+    - USB e etc
+  -Para realizar essa comunicação entre os componentes a placa mãe possui chipset controladores, esses são responsáveis em permitir a comunicação entre os dispositivos conectados à placa-mãe,  como o processador e a memória.
+  
+- Processador
+  
+  - Processador ou CPU como é conhecido é o principal componente de processamento do computador;
+  - Atende todas as solicitações realizadas através do sistema operacional pelo usuário;
+  - Sua velocidade é medida através de Mhz (mega-hertz), ou Ghz (giga-hertz), que define a capacidade de processamento do mesmo
+
+- Cooler
+  
+   - Pequenos ventiladores responsáveis pelo resfriamento dos componentes.
+  
+- Memória RAM
+  - Armazenamento volátil;
+  - A quantidade de memória RAM pode interferir diretamente no desempenho de um computador, porém sozinha não é responsável pela velocidade do computador;
+  - Seus módulos de memória são DDR
+
+- Fonte de alimentação
+  
+  - Responsável por energizar a placa mãe e todos os componentes que nela estão conectados;
+  - Trabalha em 12v, e ajuda a estabilizar a voltagem correta;
+
+- Armazenamento de dados (HDs)
+  
+  - Responsável pelo armazenamento de dados no computador;
+  - Não são voláteis;
+  - HD possui internamente um disco magnético;
+  - SSD/NVME são compostos por diversos chips de memória instalados em uma placa de circuito.
+  - HD padrão atinge velocidades de até 50 MB/s para escrita, e até 120 MB/s para leitura.
+  - SSD atinge até 450 MB/s para a escrita e 500 MB/s nas leituras
+  - NVME atinge até 7000 MB/s para a escrita e 7000 MB/s nas leituras
+  
+- Placa de vídeo
+  
+  - A placa de vídeo é responsável por processar e gerar as imagens;
+  - Quanto mais pesadas forem as imagens, maior deve ser a capacidade de processamento da placa;
+  - Placas on-board;
+  - Placas off-board
+  
+- Periféricos de um computador
+  
+  - São componentes que podem ser ligados ao computador.
+  
+- Periféricos de entrada
+  
+  - Responsável por transmitir as informações para o computador.
+    - Teclado;
+    - Caneta óptica;
+    - Cartão magnético;
+    - Mouse;
+    - Scanner;
+    - Joystick;
+    - Microfones;
+    - etc.
+  
+- Periféricos de saída
+  
+  - Responsável por receber as informações do computador:
+    - Monitor;
+    - Impressora;
+    - Caixa de som;
+    - Potters
+    - Projetor;
+    - etc.
+  
+- Periféricos de entrada e saída
+  
+  - Componentes que enviam e recebem as informações do computador:
+    - Pen drive;
+    - cd;
+    - DVD;
+    - Placa de rede
+    - Impressoras multifuncionais;
+    - etc.
+  
+- Como escolher o hardware adequado
+
+  - A escolha deve ser realizada baseada na necessidade do usuário.
+    - Processamento dos dados;
+    - Velocidade;
+    - Memória;
+    - Tamanho da tela;
+    - Espaço de armazenamento;
+    - Espaço;
+    - Duração da bateria;
+    - etc.
+
+- Manter o hardware em bom estado e maximizar sua performance
+  
+  - Manter o hardware:
+    - Limpeza;
+    - Resfriamento adequado;
+    - Troca de pasta térmica se necessário;
+  
+  - Maximizar performance:
+    - Desinstalar os softwares desnecessários;
+    - Limitar os programas na inicialização do sistema;
+    - Se necessário adicionar mais memória;
+  
+- Tendências e desnvolvimentos futuros em hardware
+  
+  - Tecnologia Optane (desenvolvida pela intel)
+  
+Já está no mercado, desempenho dos produtos com essa tecnologia pode ser 28% maior no acesso aos dados e ficar até 1400% mais rápido;
+  
+  - Computação quântica:
+  
+Máquinas super potentes, capazes de resolver cálculos em uma velocidade muito maior que os computadores tradicionais;
+Já existentes em alguns laboratórios, porém distante da maioria;
 
 </details>
 
