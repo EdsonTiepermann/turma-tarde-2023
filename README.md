@@ -366,7 +366,61 @@ Já existentes em alguns laboratórios, porém distante da maioria;
 </details>
 
 <details>
-<summary>Aula 04 - dia 24 de Março: Introdução ao curso</summary>
+<summary>Aula 04 - dia 24 de Março: Introdução ao Sistema Operacional</summary>
+  
+- Sistema Operacional - SO
+  
+  - O que é um Sistema Operacional?
+    - Um sistema operacional é uma plataforma que se posiciona entre a pessoa usuária e os componentes físicos de um computador — Hardware. Por meio dele, é possível controlar a execução de tarefas e programas, assim como o gerenciamento da memória, dispositivos e arquivos.
+  
+- Funções de um sistema operacional
+  
+  - Administrar e gerenciar os recursos de um sistema, desde componentes de hardware e sistemas de arquivos a programas de terceiros, estabelecendo a interface entre o computador e o usuário.
+
+- Tipos de sistemas operacionais.
+  
+  - Windows
+  - Linux
+  - MacOs
+  - Android
+
+- Processo de instalação de sistema operacional.
+  
+    - ‘Fazer’ pendrive ‘bootável’;
+    - Inicializar o sistema na BIOS - (DEL, F2, F12);
+    - Modificar prioridade boot - (prioridade - unidade pendrive);
+    - Reiniciar o computador, salvando as modificações;
+    - Esperar a inicialização do sistema de instalação do S.O
+
+- Configuração inicial.
+  
+    - Escolha do S.O. (versão, x86, x64);
+    - Dividir o HD em mais de 1 partição (opcional);
+    - Formatação da Unidade de armazenamento, onde ficará o sistema;
+    - Instalação do Sistema Operacional;
+    - Configurações básicas do S.O. 
+      - Escolha do padrão da língua;
+      - Escolha do padrão do teclado;
+      - Configuração de Rede;
+      - Configuração de Login e Senha;
+  
+</details>
+
+<details>
+<summary>Aula 05 - dia 24 de Março: Introdução a Internet</summary>
+  
+- O que é a Internet
+  - Rede global de computadores
+  - União de um enorme número de redes ao redor do mundo através do protocolo TCP/IP
+
+  
+  
+
+
+</details>
+
+<details>
+<summary>Aula 06 - dia 24 de Março: Introdução ao Sistema Operacional</summary>
 
 
 </details>
