@@ -553,7 +553,7 @@ https://www.youtube.com/watch?v=AABqPceCwZk
 
 </details>
 
-Aula 06 - dia 01 de Abril: Prova de informática básica
+Aula 06 - dia 31 de Março: Prova de informática básica
 
 <details>
 <summary>Aula 07 - dia 03 de Abril: </summary>
