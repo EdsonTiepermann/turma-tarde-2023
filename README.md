@@ -556,7 +556,148 @@ https://www.youtube.com/watch?v=AABqPceCwZk
 Aula 06 - dia 31 de Março: Prova de informática básica
 
 <details>
-<summary>Aula 07 - dia 03 de Abril: </summary>
+<summary>Aula 07 - dia 03 de Abril: Padronizações</summary>
+
+- O que é padronização de código
+
+  - A norma geralmente é aceita e utilizada por um grupo de programadores, para partilhar uniformemente o código.
+  
+  - Objetivo é simplificar a compreensão do código por uma pessoa.
+  
+  - Minimizar o esforço da memória, pensamento e visão ao ler um código.
+
+- Quais iremos utilizar?
+  
+  - JavaScript
+    - Google Javascript Style Guide
+    
+  - PHP
+  
+    - PSR
+    
+    ![image](https://user-images.githubusercontent.com/33090891/229382699-06338714-e93b-4cdd-9bf4-c0d8a65a8092.png)
+    
+- Ambiente de desenvolvimento
+
+  - Termo utilizado tudo que o projeto necessida para o desenvolvimento e implementação do sistema, como:
+  
+      - Ferramentas
+      
+      - Processos
+      
+      - Infra estrutura
+   
+   - Geralmente o desenvolvimento é dividido em:
+   
+    - Desenvolvimento
+    
+    - Produção  
+
+  - Projetos ou empresas maiores podem adicionar mais camadas como:
+  
+    - Test
+    
+    - Alfa
+    
+    - Beta
+    
+    - Release, etc… 
+    
+![image](https://user-images.githubusercontent.com/33090891/229382769-d1357d06-70e6-4bc4-af26-e20ce80ac675.png)
+
+
+![image](https://user-images.githubusercontent.com/33090891/229382777-7d8cc5ea-705a-4aeb-905f-9bb54609f554.png)
+
+
+![image](https://user-images.githubusercontent.com/33090891/229382792-e91780b3-7d44-46b9-9fc6-47ccf821fd64.png)
+
+- Front-end
+
+  - Conhecido como interface frontal ou parte frontal.
+  
+    - HTML - Hypertext Markup Language
+    
+    - CSS - Cascading Stylesheet
+    
+    - JavaScript
+
+- Back-end
+
+  - Conhecido como parte secundária, parte da retaguarda.
+  
+    - PHP - Hypertext Preprocessor.
+
+- Full-stack
+
+  - Conhecido como conjunto de soluções ou pilha de soluções.
+
+  - Desktop Developer
+  
+  - Graphics Developer
+  
+  - Gamer Developer
+  
+  - Data Scientist
+  
+  - Big Data Developer
+  
+  - Security Developer ...
+
+- Case-sensitive 
+
+  - Referente a análise tipográfica da informática, algo sensível a caixa de letras.
+
+- UPPER CASE
+
+  - Converter todas as letras para maiúsculas
+  
+- lower case 
+
+  - Converter todas as letras para minúsculas
+
+- camelCase
+
+  - Começa com uma letra minúscula e a primeira de cada nova palavra maiúscula.
+  
+- snake_case
+
+  - Substitui os espaços por um _ (low dash ou underscore), e todas as letras minúsculas
+
+- kebeb-case
+
+  - Substitui os espaços por um - (dash) e todas as letras minúsculas.
+  
+- UPPER_CASE_SNAKE_CASE
+
+  - Substitui todos os espaços por _ e todas as letras são maiúsculas.
+  
+- Lógica de programação
+
+  - Maneira como se escreve um algoritmo.
+    - Algoritmo
+    
+      - Sequência de passos necessários para que uma função seja executada.
+      
+      - Podemos compará-la como uma receita.
+      
+      ![image](https://user-images.githubusercontent.com/33090891/229382982-296e3894-5d87-465a-933d-50837fa02de4.png)
+
+- Para esses processos, é necessário a linguagem de programação.
+
+    - Como linguagem normal;
+    
+    - Palavras possuem significados;
+    
+    - O computador assimila e executa;
+
+- Google Doodle (Celebrando 50 anos programação para crianças)
+
+https://www.google.com.br/logos/2017/logo17/logo17.html?hl=pt-BR
+
+</details>
+
+<details>
+<summary>Aula 08 - dia 10 de Abril: </summary>
 
 
 </details>
