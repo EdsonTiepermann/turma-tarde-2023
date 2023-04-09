@@ -697,7 +697,94 @@ https://www.google.com.br/logos/2017/logo17/logo17.html?hl=pt-BR
 </details>
 
 <details>
-<summary>Aula 08 - dia 10 de Abril: </summary>
+<summary>Aula 10 - dia 10 de Abril: </summary>
 
+
+</details>
+
+<details>
+<summary>Aula 14 - dia 10 de Abril: Sistema de controle de versões </summary>
+
+- O que é git?
+
+  - o GIT é um Sistema de Controle de Versões Distribuído
+
+  - Possuem a função de registrar quaisquer alterações feitas em cima de um código, armazenando essas informações e permitindo que, caso seja necessário, um programador possa regredir a versão anterior de uma aplicação de modo simples e rápido.
+  
+    - Este tipo de sistema também simplifica muito o processo de compartilhamento de um projeto com um time, por exemplo, ou com outros(as) programadores(as).
+    
+- O que é gitHub?
+
+  - é uma espécie de rede social voltada a profissionais de TI cuja tecnologia que o sustenta é o GIT.
+
+  - Em outras palavras, GitHub é uma plataforma totalmente online onde você pode criar repositórios e hospedar neles seus projetos, colaborar com softwares open source, seguir outros(as) programadores(as) e interagir com códigos de terceiros.
+  
+  - O GitHub armazena todos estes dados em uma nuvem e você pode acessá-los de onde estiver: basta logar-se no site em qualquer navegador.
+
+- Vantagens do git!
+
+  - ‘Refazer’ uma regra de negócio antiga.
+  
+  - Trabalho colaborativo.
+  
+  - Controle de versões.
+  
+  - Oportunidade de aprender com programadores mais experientes;
+  
+  - Possibilidade de acompanhar e colaborar com projetos de diferentes equipes;
+  
+  - Aprender programação na prática ao observar o avanço do desenvolvimento de aplicações de terceiros;
+  
+  - Obter auxílio de outros programadores para resolver problemas relacionados a seus projetos;
+  
+  - Controlar as diferentes versões de um código com armazenamento em nuvem;
+  
+  - Registrar ações e projetos desenvolvidos por você em uma espécie de portfólio online, etc;
+
+- Conceitos
+
+  - Repositórios .git
+  
+  - Privado
+  
+  - Público
+  
+- Commit
+
+  - Um commit é um grupo de alterações no código. Toda vez que você quiser "salvar" as alterações feitas por você no repositório, você commita essas mudanças. Um commit contém as alterações que foram feitas nele e uma mensagem descritiva, além de informações meta (data, autor, etc).
+  
+  - O ideal é que os commit sejam feitos de forma lógica e organizada
+  
+- Branch
+
+  - Branches são separações de código. O branch padrão do projeto é o master. Branches normalmente são utilizados para separar alterações grandes ou novas funcionalidades do projeto.
+  
+- Merge
+
+  - Um merge é a união de duas branches, normalmente, merges são feitos na branch master.
+
+  - Os merges costumam dar bastante problema, pois os códigos podem (e provavelmente vão entrar em conflito). Se houverem alterações no mesmo arquivo ou o git não conseguir definir se alguma linha deve ou não entrar no projeto por motivo de conflito, essas alterações deverão ser corrigidas manualmente.
+  
+- Clone
+
+  - Um clone de um repositório funciona como uma branch de um repositório online em um repositório local. Ou seja, quando se deseja trabalhar em um repositório hospedado no github, clona-se esse repositório para o seu computador, trabalha-se nele, e então é pedida a permissão para atualizar as alterações online.
+  
+- Pull
+
+  - É uma atualização do repositório local. É feito um merge do repositório online com o local para que os conflitos sejam resolvidos e seja possível enviar o código (sem conflitos) para o repositório online por meio de um push.
+
+- Push
+
+  - Envia (ou tenta enviar) o código para o repositório online.
+  
+- Fork
+
+  - O fork é como um clone, porém dentro do github. Isso quer dizer que o repositório não vai ser baixado para seu computador, mas será criado um igual na sua conta.
+  
+- Pull Request
+
+  - Um pull request é um pedido que se faz ao dono do repositório para que esse atualize o código dele com o seu código. Ou seja, você pede para que o dono do projeto ao qual você quer contribuir adicione suas modificações ao projeto oficial.
+  
+![image](https://user-images.githubusercontent.com/33090891/230774520-7bd176ef-9f12-480d-9625-c2072a1203a6.png)
 
 </details>
