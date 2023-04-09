@@ -904,7 +904,15 @@ com a barra (/).
 
 - Atributos das tags
   
-  - Não definem significado para aquele texto, normalmente utilizadas para separação e estilização.
+  - Palavras especiais usadas dentro da abertura da tag para controlar o comportamento do elemento.
+  
+  ![image](https://user-images.githubusercontent.com/33090891/230775607-6e0f9c5d-4fcd-4b43-80bd-9a2570622358.png)
+
+  - Caminhos 
+  
+    - Absoluto
+  
+    - Relativo
 
 - Comentários
   
