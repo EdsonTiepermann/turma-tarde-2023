@@ -697,7 +697,7 @@ https://www.google.com.br/logos/2017/logo17/logo17.html?hl=pt-BR
 </details>
 
 <details>
-<summary>Aula 14 - dia 10 de Abril: Sistema de controle de versões </summary>
+<summary>Aula 8 - dia 10 de Abril: Sistema de controle de versões </summary>
 
 - O que é git?
 
@@ -784,7 +784,7 @@ https://www.google.com.br/logos/2017/logo17/logo17.html?hl=pt-BR
 </details>
 
 <details>
-<summary>Aula 10 - dia 10 de Abril: Editor de código fonte/ introdução HTML </summary>
+<summary>Aula 8 - dia 10 de Abril: Editor de código fonte/ introdução HTML </summary>
   
 - Porque o VS Code?
   
@@ -924,11 +924,11 @@ com a barra (/).
 </details>
 
 <details>
-<summary>Aula 14 - dia 10 de Abril: </summary>
+<summary>Aula 9 - dia 14 de Abril: </summary>
 
 </details>
   
 <details>
-<summary>Aula 17 - dia 10 de Abril: </summary>
+<summary>Aula 10 - dia 17 de Abril: </summary>
 
 </details>
