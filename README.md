@@ -697,12 +697,6 @@ https://www.google.com.br/logos/2017/logo17/logo17.html?hl=pt-BR
 </details>
 
 <details>
-<summary>Aula 10 - dia 10 de Abril: </summary>
-
-
-</details>
-
-<details>
 <summary>Aula 14 - dia 10 de Abril: Sistema de controle de versões </summary>
 
 - O que é git?
@@ -786,5 +780,143 @@ https://www.google.com.br/logos/2017/logo17/logo17.html?hl=pt-BR
   - Um pull request é um pedido que se faz ao dono do repositório para que esse atualize o código dele com o seu código. Ou seja, você pede para que o dono do projeto ao qual você quer contribuir adicione suas modificações ao projeto oficial.
   
 ![image](https://user-images.githubusercontent.com/33090891/230774520-7bd176ef-9f12-480d-9625-c2072a1203a6.png)
+
+</details>
+
+<details>
+<summary>Aula 10 - dia 10 de Abril: Editor de código fonte/ introdução HTML </summary>
+  
+- Porque o VS Code?
+  
+  - Editor de código
+  
+  - 20 milhões de programadores (global)
+  
+  - Mais de 34 mil extensões
+  
+  - Contém Emment abbreviations
+  
+    - Aparecimento automático de linhas de código que fazem parte da estrutura.
+  
+- Alguns atalhos
+  
+  - Ctrl + b = esconde ou apresenta o menu lateral
+  
+  - Ctrl + alt + p/ baixo = duplica a linha
+  
+  - html:5 = cria o cabeçario html
+  
+  - Ctrl + c = copia
+  
+  - Ctrl + v = cola
+  
+  - Alt + direcional cima/baixo = desloca a linha
+  
+- Plugins
+
+  - Live Server
+  
+- HTML - Conceito
+  
+- HTML - Hypertext Markup Language
+  
+  - Existe de 1991, atualmente está na versão 5
+  
+- Linguagem de marcação
+  
+  - Demarca a estrutura por um conjunto de elementos HTML (hipertextos) conhecidos como tags
+  
+- Tags.
+  
+  - Hipertextos que conectan entre sí formando una página.
+  
+  - Responsável por informar ao navegador que tipo de estrutura está sendo construída.
+    
+    - Cabeçalho
+  
+    - Corpo do site 
+  
+    - Títulos
+  
+    - Parágrafos
+  
+    - Imagens
+    
+    - Links 
+  
+    - Entre outros…
+
+- Mas para o navegador saber interpretar, o arquivos precisa estar com a extensão .html
+  
+- As Tags se iniciam com o sinal de “menor que” < em seguida o nome do elemento e encerra-se com o sinal de “maior que” >, e o fechamento será definido
+com a barra (/).
+  
+- Existem as tags que necessitam de fechamento e as tags que fecham-se sozinhas (self-closing).
+  
+- Exemplo:
+
+
+![image](https://user-images.githubusercontent.com/33090891/230774916-f88bedf4-861f-4b6d-a7d9-ca25ae052158.png)
+
+- Tipos de tags
+  
+  - Nível de bloco (block-level).
+  
+    - Onde ocupa toda a largura de seu elemento pai, que chamamos de elemento container, criando assim um bloco.
+  
+  - Inline.
+  
+    - Geralmente usamos para demarcação de conteúdos de texto.
+  
+  ![image](https://user-images.githubusercontent.com/33090891/230774972-485c1674-a2ea-4b44-8cb1-aa84ae67adea.png)
+  
+  ![image](https://user-images.githubusercontent.com/33090891/230774993-dac9c360-3f43-4a7f-baf9-abb3feba6748.png)
+
+  ![image](https://user-images.githubusercontent.com/33090891/230775010-66bce8cf-347a-4663-a469-c3d1e1706f56.png)
+
+  ![image](https://user-images.githubusercontent.com/33090891/230775016-e5677d0c-b6bf-4267-ba40-f91f5bd1dfde.png)
+
+  ![image](https://user-images.githubusercontent.com/33090891/230775024-5e2cf9a1-e1cb-4357-b68a-77a55bfd9532.png)
+
+  ![image](https://user-images.githubusercontent.com/33090891/230775037-97be73ca-87cb-487a-ad4c-f3b4812f89fd.png)
+
+  ![image](https://user-images.githubusercontent.com/33090891/230775046-5a9a17d7-071e-4a0f-a1d6-7674a04228f5.png)
+  
+  ![image](https://user-images.githubusercontent.com/33090891/230775057-9922af7b-52a1-4594-a3f8-a5c73fe00038.png)
+
+  ![image](https://user-images.githubusercontent.com/33090891/230775065-f911cf53-9d06-45f5-a819-dfd7e788242b.png)
+
+  ![image](https://user-images.githubusercontent.com/33090891/230775087-d577286e-0e68-492a-975c-692f2c8da2c4.png)
+
+- Tags semânticas
+  
+  - Que possuem significado, que dão sentido à informação do texto ao navegador e buscadores.
+
+  ![image](https://user-images.githubusercontent.com/33090891/230775124-68d8c455-96ec-41ef-9a0c-54ed288d0b76.png)
+
+  ![image](https://user-images.githubusercontent.com/33090891/230775134-817984f9-7d24-4652-b6ec-d8201cbd9895.png)
+
+- Tags sem semânticas
+  
+  - Não definem significado para aquele texto, normalmente utilizadas para separação e estilização.
+
+  ![image](https://user-images.githubusercontent.com/33090891/230775161-67b41d58-254b-4aa7-aa15-be0253ca9985.png)
+
+- Atributos das tags
+  
+  - Não definem significado para aquele texto, normalmente utilizadas para separação e estilização.
+
+- Comentários
+  
+  - São notas que podem ser incluídas no código fonte para descrever o que quiser.
+
+  ![image](https://user-images.githubusercontent.com/33090891/230775198-49455a64-f769-4ff7-b5f4-1cf645471bcd.png)
+
+  
+</details>
+
+<details>
+<summary>Aula 10 - dia 10 de Abril: </summary>
+
 
 </details>
