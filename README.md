@@ -1053,7 +1053,7 @@ com a barra (/).
   
   - segundoArquivo.html
   
-- Vamos criar um arquivo que será nosso principal, chamdo de 
+- Vamos criar um arquivo que será nosso principal, chamado de 
 
   - arquivoPrincipal.html
   
