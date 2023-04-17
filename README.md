@@ -924,11 +924,129 @@ com a barra (/).
 </details>
 
 <details>
-<summary>Aula 9 - dia 14 de Abril: </summary>
+<summary>Aula 9 - dia 14 de Abril: DOM/HTML/LISTAS</summary>
+
+- DOM
+
+  - O Modelo de Objeto de Documento (DOM) é uma interface de programação para documentos HTML, XML e SVG . Ele fornece uma representação estruturada do documento como uma árvore. O DOM define métodos que permitem acesso à árvore, para que eles possam alterar a estrutura, estilo e conteúdo do documento. O DOM fornece uma representação do documento como um grupo estruturado de nós e objetos, possuindo várias propriedades e métodos. Os nós também podem ter manipuladores de eventos que lhe são inerentes, e uma vez que um evento é acionado, os manipuladores de eventos são executados. Essencialmente, ele conecta páginas web a scripts ou linguagens de programação.
+  
+- Árvore DOM
+  
+  - O DOM foi criado pela W3C com o objetivo de desenvolver um padrão para linguagens de script para os navegadores já que antigamente cada navegador tinha seu próprio modo de manipular os objetos, o que gerava muita incompatibilidade e obrigava os desenvolvedores a escrever uma versão de script para cada navegador.
+
+  - Quando uma página web é carregada, o navegador cria o DOM, a árvore de elementos do HTML.
+  
+  ![image](https://user-images.githubusercontent.com/33090891/232353300-d306c39b-c2a9-45ee-b89b-7916e4d8ed8b.png)
+
+- Entendendo o DOM
+
+  - Document
+  
+    - Quando um documento HTML é carregado no navegador da Web, torna-se um objeto de documento. O objeto do documento é o nó raiz do documento HTML e o "dono" de todos os outros nós.
+
+  - Element
+  
+    - O objeto de elemento representa todas as tags que estão em arquivos HTML ou XML. Os objetos de elemento podem ter nós filhos de nós de texto, além de atributos.
+
+  - Text
+  
+    - Texto que vai entre os elementos, o conteúdo das tags 
+(<p>este é um texto</p>).
+
+  - Attribute
+  
+    - O objeto atributo representa um atributo que pertence sempre a um elemento HTML.
+
+- Atributos das tags
+
+  - href 
+  
+    - O atributo href é usado no HTML para fazer referência a uma URL externa, seja um link ou um arquivo.
+
+    - Através desse atributo podemos definir o destino de uma tag <a> ou até mesmo o endereço de um arquivo de estilos CSS. 
+    
+    ![image](https://user-images.githubusercontent.com/33090891/232353421-832c03e4-267a-45ef-9f72-b2f6eb7708dc.png)
+
+  - Tatget
+  
+    - O atributo <a target> especifica onde abrir o documento vinculado por uma tag a (elemento de âncora).
+    
+    - Um atributo target com o valor de _blank abre o documento vinculado em uma nova janela ou aba.
+    
+    - Um atributo target com o valor de _self abre o documento vinculado no mesmo frame no qual ele foi clicado (esse é o padrão e, em geral, não precisa ser especificado).
+
+![image](https://user-images.githubusercontent.com/33090891/232353465-7933fdbe-d823-4bfb-bc6f-db7ac2d8e17c.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353475-c63f0b67-bea1-45dc-a541-d12628d879f8.png)
+
+- Listas
+
+  - Lista é um recurso de HTML bastante utilizado, pois permite criarmos tópicos de textos para uma melhor exemplificação de um determinado assunto.
+  
+  - Um exemplo bastante utilizado são menus em HTML, relatórios de clientes, etc.
+  
+- Listas - Tipos
+
+  - Não ordenada.
+  
+  - Ordenada ou Numerada.
+  
+  - De definição - usada para fazer comentários sobre os itens expostos.
+  
+- Listas - Não Ordenadas
+
+  - As listas não ordenadas são utilizadas para listar itens, sem se preocupar com sua sequência. 
+
+  - As tags utilizadas para criar uma lista não ordenada são:
+  
+  ![image](https://user-images.githubusercontent.com/33090891/232353612-39e74eac-38a5-4e72-9ad1-43fea1bdcd3a.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353631-9c7386fb-79bd-4cb1-b600-0e2ac1ab219c.png)
+
+- Listas - Ordenada ou Numerada
+
+  - As listas ordenadas ou numeradas são usadas para indicar alguma sequência ou numeração
+
+![image](https://user-images.githubusercontent.com/33090891/232353660-ee58cfc1-2e92-4e15-9bd6-c5056481df4f.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353677-54e01282-78b4-4b1a-8994-8d94b7bfb793.png)
+
+- Listas - de Definição
+
+  - Listas de definição são usadas em assuntos onde há um termo a em sequência a sua definição, estilo perguntas e respostas.
+
+![image](https://user-images.githubusercontent.com/33090891/232353711-a5b18010-e68c-44db-baa5-481907a6f6f2.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353726-559021a6-d609-4546-9f6b-dd0ac491925b.png)
 
 </details>
   
 <details>
-<summary>Aula 10 - dia 17 de Abril: </summary>
+<summary>Aula 10 - dia 17 de Abril: HTML/TAGS/TAGS DE MÍDIA</summary>
+
+![image](https://user-images.githubusercontent.com/33090891/232353837-777bb5dd-610e-45d5-8318-005635f5691b.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353857-638251a9-a661-47af-9eca-f89780359af6.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353869-0ac3531e-e437-49f0-9623-74eb090884cc.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353886-7cb6f131-8c84-482b-9eab-0a3952fdd710.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353906-b2045d1a-5974-4d8c-a1f9-fa7408feada5.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353923-57afa4e5-0c9e-4cf2-b5c0-017195465e0b.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353932-4d01a5f7-7707-49b1-8435-8c8ce95f806f.png)
+
+
+</details>
+
+<details>
+<summary>Aula 11 - dia 24 de Abril: </summary>
+
+</details>
+
+<details>
+<summary>Aula 12 - dia 28 de Abril: </summary>
 
 </details>
