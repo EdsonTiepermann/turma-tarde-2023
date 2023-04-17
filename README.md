@@ -1038,6 +1038,48 @@ com a barra (/).
 
 ![image](https://user-images.githubusercontent.com/33090891/232353932-4d01a5f7-7707-49b1-8435-8c8ce95f806f.png)
 
+</details>
+
+<details>
+<summary>Exercícios - dia 17 de Abril: </summary>
+
+01 - aproveitando a pasta e os arquivos já criados na última aula:
+
+ - Pasta com o seu nome
+ 
+- Arquivos:
+
+  - primeiroArquivo.html
+  
+  - segundoArquivo.html
+  
+- Vamos criar um arquivo que será nosso principal, chamdo de 
+
+  - arquivoPrincipal.html
+  
+  <hr>
+  
+02 - Vamos criar um arquivo para cada módulo do curso:
+
+  - HTML
+  
+  - CSS
+  
+  - JavaScript
+
+  - PHP
+  
+  - Banco de Dados
+  
+- O nome dos arquivos deve ser com o nome de cada módulo
+  
+<hr>
+
+03 - Cada arquivo deve conter toda a estrutura ensinada em aula e com uma breve explicação do curso e mídia referente a cada conteúdo, sempre utilizando as tags referentes a cada tipo de conteúdo.
+
+<hr>
+
+04 - Criar o menu para cada página e ancorá-las, de forma que seja possível ir e voltar em todas as páginas através do menu de navegação.
 
 </details>
 
