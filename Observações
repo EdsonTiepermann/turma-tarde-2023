@@ -3,3 +3,14 @@
 https://www.google.com.br/logos/2017/logo17/logo17.html?hl=pt-BR
 
 -----------------------------------------------------------------------------------------------------------------
+
+<hr>
+Configuração VS Code com gitHub
+
+    git config --globar user.name nomeUsuarioQueEstaNoGitHub
+
+    git config --global user.email emailcadastradonogit@gmail.com
+
+    git config --list
+
+<hr>
