@@ -798,6 +798,14 @@ https://www.google.com.br/logos/2017/logo17/logo17.html?hl=pt-BR
   
     - Aparecimento automático de linhas de código que fazem parte da estrutura.
   
+- Configuração VS Code com gitHub
+
+  - git config --globar user.name nomeUsuarioQueEstaNoGitHub
+  
+  - git config --global user.email emailcadastradonogit@gmail.com
+
+  - git config --list
+
 - Alguns atalhos
   
   - Ctrl + b = esconde ou apresenta o menu lateral
