@@ -1092,7 +1092,55 @@ com a barra (/).
 </details>
 
 <details>
-<summary>Aula 11 - dia 24 de Abril: </summary>
+<summary>Aula 11 - dia 24 de Abril: Apoio para o exercício</summary>
+
+- Utilizar no exercício
+## Tags Semânticas
+~~~
+  - H1, h2 … h6         => Tag de título
+  - <header></header>   => Define o cabeçalho
+  - <main></main>       => Define o conteúdo principal da página
+  - <footer></footer>   => Rodapé
+  - <section></section> => Define seção genérica da pg
+  - <article></article> => Define conteúdo independente
+  - <aside></aside>     => Define algo relacionado
+  - <nav></nav>         => Define a navegação principal
+  - <ol></ol>           => Lista ordenada
+  - <ul></ul>           => Lista não ordenada
+  - <li></li>           => Elementos da lista
+  - <p></p>             => Define parágrafo
+  - <a></a>             => Define ancoras 
+  - <details></details> => Detalhes adicionais
+  - <summary></summary> => Utilizada no details
+  - <address></address> => Informações de contato
+~~~
+## Tags SEM Semântica
+~~~
+  - <span></span>     => Genérica para texto
+  - <br>              => Pula linha
+  - <hr>              => Uma separação
+  - <i></i>           => destaca uma parte do texto
+  - <strong></strong> => negrita parte do texto
+~~~
+## Tags de Mídia
+~~~
+ - <progress></progress>
+ - <audio></audio>
+ - <video></video>
+ - <source>
+ - <img>
+~~~
+## Atributos
+~~~
+- href=””
+ - Target=””
+ - src=””
+ - controls
+ - id=””
+ - class=””
+ - value=””
+ - max=””
+~~~
 
 </details>
 
