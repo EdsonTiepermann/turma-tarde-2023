@@ -1147,4 +1147,37 @@ com a barra (/).
 <details>
 <summary>Aula 12 - dia 28 de Abril: </summary>
 
+- O que são tabelas?
+
+  - As tabelas são listas de dados em duas dimensões e são compostas por linhas e colunas. Portanto, são muito utilizadas para apresentar dados de uma forma organizada.
+  
+ - Estrutura básica.
+ 
+  - As tags que vão formar a estrutura básica de uma tabela em HTML são as tags <tr> e <td>. A tag <tr> representa uma linha e a tag <td> representa uma célula. Desta forma, a criação de colunas em uma tabela HTML é feita automaticamente através da quantidade de células incluídas dentro de uma linha. 
+
+
+
+
+~~~
+<table>
+  <thead>
+    <th>Nome</th>
+    <th>Idade</th>
+    <th>Telefone</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Edson</td>
+      <td>35</td>
+      <td>42-9999-9999</td>
+    </tr>
+  </tbody>
+</table>
+
+~~~
+
+</details>
+
+<summary>Aula 13 - dia 05 de Maio: </summary>
+
 </details>
