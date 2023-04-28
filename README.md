@@ -1178,6 +1178,62 @@ com a barra (/).
 
 </details>
 
+  
+<details>
 <summary>Aula 13 - dia 05 de Maio: </summary>
+  
+  ~~~
+       <form action="endereco.html" method="get">
+            <label>Nome:</label>
+            <input type="text" placeholder="">
+            <br>
+            <input type="checkbox" placeholder="">
+            <br>
+            <input type="color" placeholder="">
+            <br>
+            <input type="date" placeholder="">
+            <br>
+            <input type="datetime" placeholder="">
+            <br>
+            <input type="datetime-local" placeholder="">
+            <br>
+            <input type="email" placeholder="email@email">
+            <br>
+            <input type="file" placeholder="">
+            <br>
+            <input type="hidden" placeholder="">
+            <br>
+            <input type="image" placeholder="">
+            <br>
+            <input type="month" placeholder="">
+            <br>
+            <input type="number" placeholder="">
+            <br>
+            <input type="password" placeholder="Senha">
+            <br>
+            <input type="radio" placeholder="">
+            <br>
+            <input type="range" placeholder="">
+            <br>
+            <input type="reset" placeholder="">
+            <br>
+            <input type="search" placeholder="Pesquisar">
+            <br>
+            <input type="submit" placeholder="">
+            <br>
+            <input type="tel" placeholder="Fone">
+            <br>
+            <input type="time" placeholder="">
+            <br>
+            <input type="url" placeholder="url">
+            <br>
+            <input type="week" placeholder="week">
+            <br>
+           
+            <input type="button" value="teste" disabled>
+            
+        </form>
+
+~~~
 
 </details>
