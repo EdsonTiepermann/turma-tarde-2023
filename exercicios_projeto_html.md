@@ -115,8 +115,17 @@
  
 07 - Informações básicas:
 Nome, email, nome github, idade
+ 
+ 
+ - Exercícios form
+ 
+1 - Na sua página principal criar mais uma âncora, chamando um arquivo que contenha um cadastro de aluno.
+ 
+2 - No arquivo que contém o formulário, o cadastro deve estar com (nome, endereço, número da residência, sexo, telefone, data de nascimento e se está estudando atualmente), esse formulário deve ser enviado para um outro arquivo que irá receber essas informações. 
+ 
+- OBS: o método escolhido e a ordem dos inputs ficam a escolha do aluno, os parâmetros devem ser escolhidos de acordo com a necessidade do input.
 
-
+ 
 </details>
 
 <details>
