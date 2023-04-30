@@ -1059,9 +1059,32 @@ com a barra (/).
  
   - As tags que vão formar a estrutura básica de uma tabela em HTML são as tags <tr> e <td>. A tag <tr> representa uma linha e a tag <td> representa uma célula. Desta forma, a criação de colunas em uma tabela HTML é feita automaticamente através da quantidade de células incluídas dentro de uma linha. 
 
+  
+  ![image](https://user-images.githubusercontent.com/33090891/235353939-2a24ae5d-2316-4848-b50b-aa10dee00c7e.png)
+  
+![image](https://user-images.githubusercontent.com/33090891/235353964-eccf7911-a29d-426d-987f-f07689c7db6a.png)
 
+![image](https://user-images.githubusercontent.com/33090891/235353971-925b8f57-2690-41b8-87b0-b2a79fe22f40.png)
+  
+- Células que abrangem mais que uma linha/coluna
+  
+  - Em algumas situações, temos a necessidade de utilizar uma mesclagem de célula, ou seja, criar uma célula que abrange mais do que uma linha ou coluna.
+  
+  - Dessa forma, podemos utilizar os atributos colspan e rowspan. O colspan=”x” vai fazer uma mesclagem de colunas, e o rowspan=”x” vai mesclar linhas, bastando substituir o x pelo número de colunas ou linhas que deseja ocupar.
+  
+  - Além disso, podemos também mesclar os dois em uma mesma célula. 
+  
+  ![image](https://user-images.githubusercontent.com/33090891/235354014-ff2e03d6-336b-4924-9b10-75d5c18611b0.png)
 
+![image](https://user-images.githubusercontent.com/33090891/235354022-34d214aa-55f5-422a-aec0-076a400c45e2.png)
 
+- exemplo rowspan
+  
+  ![image](https://user-images.githubusercontent.com/33090891/235354055-3262dca7-a336-4d4a-adc3-2ac1bc4750ef.png)
+
+  ![image](https://user-images.githubusercontent.com/33090891/235354060-2e43376f-aac2-4884-b14e-0d6256dada81.png)
+
+  
 ~~~
 <table>
   <thead>
@@ -1085,6 +1108,78 @@ com a barra (/).
   
 <details>
 <summary>Aula 12 - dia 28 de Abril: Form/Inputs</summary>
+  
+- Tag para o formulário
+  
+  - <form></form>
+  
+- Atributos do formulário
+  
+  - action=” ” onde é adicionado o endereço para onde estamos enviando os valores dos inputs
+  
+  - method=” ” atributo utilizado para mostrar o tipo do envio, get ou post
+  
+  - name=” “ define o nome do parâmetro no seu envio
+    
+- Método get os valores mostrado na URL do navegador
+  
+- Método post os valores são mostrados dentro do Rede->Requisições
+  
+- Tags
+  
+  - <label></label> - Tag para descrever os inputs
+
+  - <input></input> - Tag para controles interativos
+  
+- Atributos
+  
+  - button: botão
+  
+  - checkbox: caixa de marcação
+  
+  - color: controle de cores
+  
+  - date: inserir data (ano, mês, dia)
+  
+  - datetime: inserir data e horário (a,m,d + hora, minuto, segundo)
+  
+  - datetime-local: inserir data e horário (sem fuso horário)
+  
+  - email: inserir email
+
+  - placeholder=” ” o que faz aparecer o texto dentro do input
+  
+  - file: envio de arquivo (accept)
+  
+  - hidden: não é exibido mas o valor é enviado ao servidor
+  
+  - image:
+  
+  - month: insere mês e ano, sem fuso
+  
+  - number: inserir número
+  
+  - password: campo de texto com o valor escondido
+  
+  - radio: botão de escolha
+
+- range: inserir números (min:0, max:100)
+  
+- reset: resetar o form
+  
+- search: busca
+  
+- submit: botão que envia o formulário
+  
+- tel: campo para telefone
+  
+- time: inserir horário sem fuso
+  
+- url: manipular url
+  
+- week: inserir uma data semana sem fuso
+  
+- disabled: desabilita o input
   
   ~~~
        <form action="endereco.html" method="get">
@@ -1136,7 +1231,6 @@ com a barra (/).
             <input type="button" value="teste" disabled>
             
         </form>
-
 ~~~
 
 </details>
