@@ -1049,8 +1049,6 @@ com a barra (/).
 </details>
 
 <details>
-
-<details>
 <summary>Aula 12 - dia 28 de Abril: Tabelas</summary>
 
 - O que são tabelas?
