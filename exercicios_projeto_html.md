@@ -95,7 +95,50 @@
 </details>
 
 <details>
+<summary>Aula 12 - Exercícios - dia 28 de Abril: </summary>
+
+01 - Criar uma um link, na página principal, que leve para uma nova página que você irá criar agora, com o nome tabela.html.
+ 
+02 - Nessa página, crie um título com o nome ‘Lista de Alunos do curso de programação’.
+ 
+03 - Crie uma tabela com Nome, exercício, data de início, data prevista entrega.
+ 
+04 - Onde no nome, precisa ter o nome do aluno que está fazendo o exercício. Caso seja uma dupla, precisa ser uma célula mesclada.
+ 
+- Data de início, será a data de hoje.
+ 
+- Data prevista, a data da próxima aula.
+ 
+05 - Após criaR a tabela adicionar mais 3 alunos, deixar o seu nome, um link clicável, e redirecionar para outra página, com o nome detalhes_aluno.html.
+ 
+06 - Nessa nova página, terá uma nova tabela com algumas informações sobre você ou a dupla.
+ 
+07 - Informações básicas:
+Nome, email, nome github, idade
+
+
+</details>
+
+<details>
 <summary>Aula 12 - dia 28 de Abril: Apoio ao exercicio</summary>
+ 
+ ~~~
+<table>
+  <thead>
+    <th>Nome</th>
+    <th>Idade</th>
+    <th>Telefone</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Edson</td>
+      <td>35</td>
+      <td>42-9999-9999</td>
+    </tr>
+  </tbody>
+</table>
+
+~~~
   
   ~~~
        <form action="endereco.html" method="get">
