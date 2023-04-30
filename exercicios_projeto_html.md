@@ -1,27 +1,48 @@
 <details>
-<summary>Aula 11 - dia 18 de Abril: Listas e exercício em sala</summary>
+<summary>Exercícios - dia 17 de Abril: </summary>
 
-- 01
-  - Criar uma pasta com o nome de exercicios_html (dentro da sua pasta com seu nome).
-  - Dentro dessa pasta, criar um arquivo principal com o nome de index.html
-  - Na página index deve conter um título, os módulos do curso de programação (informática básica, html, css, javascript, php, sql)
-  - Inserir um texto simples, com o propósito do curso.
-- 02
-  - Na mesma pasta dos exercícios de HTML, criar 1 arquivo para cada módulo listado.
-  - Para cada novo arquivo, deve ter uma breve descrição sobre o módulo (pesquisar na internet)
-  - Na página principal, deve ter um link para cada módulo, que leve para o arquivo do módulo do curso. Exemplo:
-    - No index.html terá um link css, ao clicar nesse link, precisa abrir uma nova página que você criou, chamado modulo_css.html
-- 03
-  - Organizar todo o código, com identação correta.
-  - Inserir uma lista de cada, já estudada, em alguma página criada. (a critério do aluno)
-  - Organizar as páginas com as tags semânticas corretas. 
-    - Exemplo:
-      - rodapé - footer;
-      - Cabeçalho - header;
-      - Título - H1
+01 - aproveitando a pasta e os arquivos já criados na última aula:
+
+ - Pasta com o seu nome
+ 
+- Arquivos:
+
+  - primeiroArquivo.html
+  
+  - segundoArquivo.html
+  
+- Vamos criar um arquivo que será nosso principal, chamado de 
+
+  - arquivoPrincipal.html
+  
+  <hr>
+  
+02 - Vamos criar um arquivo para cada módulo do curso:
+
+  - HTML
+  
+  - CSS
+  
+  - JavaScript
+
+  - PHP
+  
+  - Banco de Dados
+  
+- O nome dos arquivos deve ser com o nome de cada módulo
+  
+<hr>
+
+03 - Cada arquivo deve conter toda a estrutura ensinada em aula e com uma breve explicação do curso e mídia referente a cada conteúdo, sempre utilizando as tags referentes a cada tipo de conteúdo.
+
+<hr>
+
+04 - Criar o menu para cada página e ancorá-las, de forma que seja possível ir e voltar em todas as páginas através do menu de navegação.
+
 </details>
+
 <details>
-<summary>Aula 11 - Apoio para Exercío em sala</summary>
+<summary>Aula 11 - dia 24 de Abril: Apoio para o exercício</summary>
 
 - Utilizar no exercício
 ## Tags Semânticas
@@ -70,70 +91,63 @@
  - value=””
  - max=””
 ~~~
+
 </details>
 
 <details>
-<summary>Exercício Aula dia 25 de Abril: Listas e exercício em sala</summary>
-
-- 01
-  - Criar uma um link, na página principal, que leve para uma nova página que você irá criar agora, com o nome tabela.html
-  - Nessa página, crie um título com o nome ‘Lista de Alunos do curso de programação’
-  - Crie uma tabela com 'Nome', 'exercício', 'data de início', 'data prevista entrega'
-    - Onde no nome, precisa ter o nome do aluno que está fazendo o exercício. Caso seja uma dupla, precisa ser uma célula mesclada
-    - Data de início, será a data de hoje.
-    - Data prevista, a data da próxima aula.
-    - 
-- 02
-  - Após criado a tabela com todos os alunos, deixar o seu nome, um link clicável, e redirecionar para outra página, com o nome detalhes_aluno.html
-  - Nessa nova página, terá uma nova tabela com algumas informações sobre você ou a dupla.
-  - Informações básicas:
-    - Nome, email, nome github, idade
-  - Caso esteja fazendo em dupla, faça 2 tabelas, 1 para cada aluno.
-  - 
-- 03  Desafio
-  - Colocar estilização na tabela (cores);
-</details>
-
-<details>
-<summary>Exercício Aula dia 25 de Abril - Apoio para Exercío em sala</summary>
-## Tags
+<summary>Aula 12 - dia 28 de Abril: Apoio ao exercicio</summary>
+  
+  ~~~
+       <form action="endereco.html" method="get">
+            <label>Nome:</label>
+            <input type="text" placeholder="">
+            <br>
+            <input type="checkbox" placeholder="">
+            <br>
+            <input type="color" placeholder="">
+            <br>
+            <input type="date" placeholder="">
+            <br>
+            <input type="datetime" placeholder="">
+            <br>
+            <input type="datetime-local" placeholder="">
+            <br>
+            <input type="email" placeholder="email@email">
+            <br>
+            <input type="file" placeholder="">
+            <br>
+            <input type="hidden" placeholder="">
+            <br>
+            <input type="image" placeholder="">
+            <br>
+            <input type="month" placeholder="">
+            <br>
+            <input type="number" placeholder="">
+            <br>
+            <input type="password" placeholder="Senha">
+            <br>
+            <input type="radio" placeholder="">
+            <br>
+            <input type="range" placeholder="">
+            <br>
+            <input type="reset" placeholder="">
+            <br>
+            <input type="search" placeholder="Pesquisar">
+            <br>
+            <input type="submit" placeholder="">
+            <br>
+            <input type="tel" placeholder="Fone">
+            <br>
+            <input type="time" placeholder="">
+            <br>
+            <input type="url" placeholder="url">
+            <br>
+            <input type="week" placeholder="week">
+            <br>
+            <input type="button" value="teste" disabled>
+            
+        </form>
 
 ~~~
-  - <thead></thead> => (table header) Esta tag representa o cabeçalho da tabela, geralmente composta por células título;
-  - <tr></tr>       => (table row) tag define uma linha em uma tabela HTML;
-  - <td></td>       => (table data) tag define uma célula normal em uma tabela HTML;
-  - <tbody></tbody> => (table body) Essa tag representa o corpo da tabela;
-  - <tfoot></tfoot> => (table footer) Essa tag representa o rodapé da tabela;
-~~~
 
-## Atributos
-
-~~~
-  - colspan => mesclagem de colunas;
-  - rowspan => Mesclagem de linhas;
-~~~
-
-## Desafio
-
-~~~
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    table {
-        border-collapse: collapse;
-        background: #FFFFF0;
-
-    td {
-        border: 1px solid black;
-
-    th {
-        border: 1px solid black;
-        background: #F0FFF0;
-    }
-  </style>
-</head>
-~~~
 </details>
