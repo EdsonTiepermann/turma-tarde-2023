@@ -1232,10 +1232,106 @@ com a barra (/).
             
         </form>
 ~~~
+  ~~~
+</details>  
+  
+  
+    
+<details>
+<summary>Aula 13 - dia 26 de Maio: Introdução CSS</summary>
+  
+  - Cascading Style Sheets
+  - Folhas de estilo em cascata:
+  Utilizado para estilizar  e arranjar as páginas WEB.
+  Alterar fonte
+  Alterar a cor (fonte, background etc)
+  Espaçamentos
+  Animações
+  
+- Para o funcionamento do CSS precisamos definir grupos e regras para os estilos.
+  - Primeiro definimos o seletor (temos três tipos de seletor).
+    - Elemento do HTML
+    - Class
+    - Id
+  
+- Exemplo
+  
+~~~
+<h1>Aprendendo CSS</h1>
+
+	H1 {
+		color: red;
+		font-size: 16px
+	}
+~~~
+
+![image](https://github.com/fholtz/turma-noite-2023/assets/100241586/73484d3e-c28b-4d7a-88df-1845730e4e6a)
+
+- Ordem dos estilos (hierarquia)
+  - Externa
+  - Interna
+  - Inline
+  Sendo a inline a maior prioridade, em seguida a interna, e então a externa
+  
+Exemplo
+
+![image](https://github.com/fholtz/turma-noite-2023/assets/100241586/b3600a67-6fd5-465a-a190-78866da74980)
+
+- Propriedades
+  - padding: espaço interno a um elemento
+  - margin: espaço externo a um elemento
+  - border: define uma borda para o elemento
+  - width: largura de um elemento
+  - height: altura de um elemento
+  - background-color: cor atrás do conteúdo do elemento
+  - color: cor do conteúdo do elemento (geralmente texto)
+  - text-shadow: cria uma sombra no texto dentro de um elemento
+  - font-family: fonte a ser utilizada no elemento
+  - font-size: muda o tamanho do texto
+  - font-weight: deixar a escrita em negrito
+
+  ![image](https://github.com/fholtz/turma-noite-2023/assets/100241586/5c6a13b3-d049-46a3-a818-c7194233f4d9)
+
+- Propriedades para texto
+- color: propriedade para definir cor ao texto:
+  - color: red;
+  - color: #ff0000
+  - color: rgb(255, 0, 0);
+
+- text-align: define o alinhamento horizontal do texto
+  - text-align: center;
+  - text-align: left;
+  - text-align: right;
+  - text-align: justify;
+
+- text-decoration: usado para inserir ou retirar decorações.
+  - text-decoration: none;
+  - text-decoration: overline;
+  - text-decoration: line-though;
+  - text-decoration: underline;
+
+- text-transform: específica letras maiúsculas e minúsculas
+  - text-transform: uppercase;
+  - text-transform: lowercase;
+  - text-transform: capitalize;
+
+- text-indent: usado para recuar a primeira linha de um texto
+  - text-indent: 50px;
+  
+- letter-spacing: espaço entre os caracteres de um texto
+  - letter-spacing: 3px;
+  - letter-spacing: -3px;
+
+- line-height: espaço entre as linhas
+  - line-height: 0.8;
+  - line-height: 1.8;
+  
+- direction: altera a direção do texto de um elemento
+  - direction: rtl;
+
+- word-spacing: espaço entre as palavras de um texto.
+  - word-spacing: 10px;
+  - word-spacing: -5px;
 
 </details>
-  
-<details>
-<summary>Aula 13 - dia 05 de Maio: </summary>
-  
-</details>
+
