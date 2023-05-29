@@ -1334,4 +1334,175 @@ Exemplo
   - word-spacing: -5px;
 
 </details>
+	
+<details>
+<summary>Aula 14 - dia 29 de Maio: Propriedades de: texto/elementos</summary>
+	
+Propriedades para texto
+	
+- font-family: especifica a fonte de um elemento;
+	
+	- family name ex: “times”, “courier”, “ariel” etc.
+	
+	- generic family: “serif”, “sans-serif”, “cursive”, etc.
+	
+- Sistema fallback: coloca-se mais de uma fonte, caso o navegador não suporte uma delas.
+Caso o nome de uma família de fonte seja mais do que uma palavra, deve-se utilizar aspas ex:
+“times new roman”
+	
+	~~~~
+	
+	p {
+		font-family: “times new roman”, times, serif;
+	}
+	
+	~~~~
+
+- font-size: altera o tamanho do texto;
+	
+- Medidas absolutas:
+	
+	- cm, mm, in(polegada), px, pt(ponto), pc(paica);
+	
+- Medidas relativas:
+	
+	- em (geralmente 1em = 16px)
+	
+	- em: medida relativa ao tamanho atual da fonte.
+	
+	- ex: relativo a altura x de uma fonte
+	
+	- rem: igual ao em porém relativo ao root que é a fonte configurada no body;
+	
+	- vw: view width Relativo a largura da viewport (tamanho da sua tela)
+	
+	- vh: view heigth, relativo a altura da viewport (tamanho da sua tela)
+	
+	- %
+	
+- RECOMENDAÇÃO OFICIAL W3C
+	
+	- Utilizar px ou em;
+
+- font-size: altera o tamanho do texto;
+exemplos:
+	
+	- font-size: 20px;
+ 	- font-size: 3em;
+
+- font-weight: especifica o peso de uma fonte;
+	
+	- font-weight: lighter;
+	
+	- font-weight: normal;
+	
+	- font-weight: bold;
+	
+	- font-weight: bolder;
+	
+- Também podendo ser numérico de 100 - 900
+
+	- font-variant: normal;
+	
+	- font-variant: small-caps;
+	
+Propriedades para elementos
+
+- Height e Width: propriedades para altura e larguras;
+	
+	- Obs: não incluem bordas ou margens
+	
+- Algumas propriedades de dimensão:
+	
+	- height: define a altura de um elemento
+	
+	- max-height: define a altura máxima de um element
+
+	- width: define a largura de um elemento
+	
+	-max-width: define a largura máxima de um elemento.
+	
+	-min-height: define a altura mínima de um elemento.
+	
+	-min-width: define a largura mínima de um elemento.
+	
+Propriedades para alinhamento vertical e horizontal
+
+- position: para alinhar elementos
+	
+	- position: absolute; para sobrepor outros elementos.
+	
+	- position: relative; 
+	
+- Alinhar esquerda e direita usando float
+	
+	- float: right;
+	
+	- float: left;
+	
+Propriedades de fundo
+	
+- background-color: define a cor de fundo;
+	
+	- background-color: lightblue;
+	
+- background-image: define uma imagem de fundo;
+	
+	- background-image: url(“nome_da_img.gif”);
+	
+- Podemos repetir a imagem horizontalmente ou verticalmente. 
+	
+- Horizontalmente:
+	
+	- background-image: url(“nome.png”);
+	
+	- background-repeat: repeat-x;
+	
+- Verticalmente:
+	
+	- background-image: url(“nome.png”);
+	
+	- background-repeat: repeat-y;
+	
+- background-repeat: no-repeat; mostra a imagem apenas uma vez.
+	
+- background-position: altera a posição da imagem.
+	
+	- background-image: url(“nome.png”);
+	
+	- background-repeat: no-repeat;
+	
+	- background-position: right top;
+
+- background-attachment: deixa fixa a imagem, assim não acompanha a barra de rolagem.
+	- background-image: url(“nome.png”);
+	- background-repeat: no-repeat;
+	- background-position: right top;
+	- background-attachment: fixed;
+	
+Propriedade estenográfica
+	
+- Para encurtar o código das propriedades de fundo;
+	
+	- background: #ffffff url(“nome_img.png”) no-repeat right top;
+
+- Ordem da propriedade estenográfica para fundo;
+	
+	- background-color:;
+	
+	- background-image:;
+	
+	- background-repeat:;
+	
+	- background-attachment:;
+	
+	- background-position:;
+
+</details>
+	
+
+<details>
+<summary>Aula 15 - dia 02 de Junho: </summary>
+	
+</details>
 
