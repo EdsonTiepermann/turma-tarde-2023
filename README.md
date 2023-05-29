@@ -1430,9 +1430,15 @@ Propriedades para alinhamento vertical e horizontal
 
 - position: para alinhar elementos
 	
-	- position: absolute; para sobrepor outros elementos.
+	- static: posição padrão dos elementos;
 	
-	- position: relative; 
+	- relative: posição  que podemos modificar as direções;
+	
+	- absolute: pode ser referenciar pela tela ou por algum elemento;
+	
+	- fixed: posição que fixa o elemento na tela;
+	
+	- sticky: uma mistura de fixed com relative
 	
 - Alinhar esquerda e direita usando float
 	
