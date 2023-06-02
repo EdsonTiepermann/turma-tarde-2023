@@ -1509,6 +1509,179 @@ Propriedade estenográfica
 
 <details>
 <summary>Aula 15 - dia 02 de Junho: </summary>
+	- Propriedades para outline
+	- outline-style - especifica o estilo do contorno.
+	- O outline-style pode ter um dos seguintes valores:
+		 - dotted - Define uma linha pontilhada
+		 - dashed - Define um contorno tracejado
+		 - solid - Define um contorno sólido
+		 - double - Define um contorno duplo
+		 - groove - Define um esboço ranhuras 3D. O efeito depende do valor outline-color
+		 - ridge - Define um esboço ridged 3D. O efeito depende do valor outline-color
+
+- Exemplo de outline style:
+
+~~~
+h2 {
+    outline-style: dotted;
+}
 	
+h2 {
+    border: 1px solid red;
+    outline: 5px dotted green;
+}
+
+div.a {
+    border: 1px solid red;
+    outline: 2px dashed blue;
+}
+~~~
+
+- Propriedades display
+	- Especifica como o display é exibido, cada elemento HTML tem um valor de exibição padrão, o valor padrão para a maioria é block ou inline
+
+	
+- Elementos em nível de bloco
+~~~
+ - <div>
+ - <h1> - <h6>
+ - <p>
+ - <form>
+ - <header>
+ - <footer>
+ - <section>
+~~~
+
+	
+- Elementos em nível inline
+~~~	
+ - <span>
+ - <a>
+ - <img>
+~~~
+
+	
+- Exemplo de display:
+
+~~~
+span {
+    display: block;
+}
+	
+h1.hidden {
+    display: none;
+}
+~~~
+
+	
+- Propriedades para overflow
+	
+	- overflow - Específica o que acontece se o conteúdo transborda a caixa de um elemento
+	
+	- O overflow pode ter um dos seguintes valores:
+	
+		 - visible- Conteúdo transborda a caixa do elemento
+	
+		 - hidden- Conteúdo que transborda fica escondido
+	
+		 - scroll - Há barra de rolagem para mostrar o conteúdo, sempre aparece
+	
+		 - auto- Aparece barra de rolagem se necessário
+	
+		 - Overflow-x and overflow-y: determina o comportamento em cada direção (horizontal e vertical)
+
+	
+- Exemplo de overflow:
+
+~~~
+div {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid;
+  overflow: visible;
+}
+	
+div {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+div {
+  background-color: coral;
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  overflow: scroll;
+}
+
+div {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid black;
+  overflow: auto;
+}
+~~~
+
+	
+- CSS Combinators
+ 	- Quatro tipos de combinators em CSS
+	  - Seletor descendente (*space*)
+	  - Seletor filho (>)
+	  - Seletor irmão adjacente (+)
+	  - Seletor irmão em geral (~)
+
+- Seletor descendente (*space*)
+	 - div p { background-color: yellow; }
+	 - Seleciona todos os elementos <p> dentro dos elementos <div>
+
+- Seletor filho (>)
+	 - div > p { background-color: yellow; }
+	 - Seleciona todos os elementos <p> que são filhos imediatos do elemento <div>
+
+- Seletor irmão adjacente (+)
+	 - div + p { background-color: yellow; }
+	 - Seleciona todos os elementos <p> colocados imediatamente após os elementos <div>
+	
+- Seletor irmão em geral (~)
+	 - div ~ p { background-color: yellow; }
+	 - Seleciona todos os elementos <p> que são irmãos dos elementos <div>
+	
+- CSS Pseudo-classes
+	 - Define um estado especial ao elemento
+	  - Estilizar um elemento quando o usuário passa o mouse sobre ele;
+	  - Estilo de links visitados e não visitados de forma diferente;
+	  - Estilizar um elemento quando ele obtém o foco
+
+~~~
+selector:pseudo-class { 
+    property: value; 
+}
+~~~
+
+	
+![image](https://github.com/fholtz/turma-noite-2023/assets/100241586/be0d4861-42e0-4a98-ad83-c3c36dd15c05)
+
+
+
+- CSS Pseudo-elementos
+ 	- Permite a estilizar (selecionar) uma parte específica de um elemento selecionado 
+	  - Estilizar a primeira letra, ou linha, de um elemento
+	  - Inserir conteúdo antes, ou depois de um elemento
+
+~~~
+selector::pseudo-element { 
+    property: value; 
+}
+~~~
 </details>
 
+
+<details>
+<summary>Aula 16 - dia 05 de Junho: </summary>
+	
+</details>
