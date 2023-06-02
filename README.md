@@ -1508,16 +1508,25 @@ Propriedade estenográfica
 	
 
 <details>
-<summary>Aula 15 - dia 02 de Junho: </summary>
-	- Propriedades para outline
-	- outline-style - especifica o estilo do contorno.
-	- O outline-style pode ter um dos seguintes valores:
-		 - dotted - Define uma linha pontilhada
-		 - dashed - Define um contorno tracejado
-		 - solid - Define um contorno sólido
-		 - double - Define um contorno duplo
-		 - groove - Define um esboço ranhuras 3D. O efeito depende do valor outline-color
-		 - ridge - Define um esboço ridged 3D. O efeito depende do valor outline-color
+<summary>Aula 15 - dia 02 de Junho: Propriedades, combinators, pseudo-classes e pseudo-elementos </summary>
+	
+- Propriedades para outline
+	
+- outline-style - especifica o estilo do contorno.
+	
+- O outline-style pode ter um dos seguintes valores:
+	
+	- dotted - Define uma linha pontilhada
+	
+	- dashed - Define um contorno tracejado
+	
+	- solid - Define um contorno sólido
+	
+	- double - Define um contorno duplo
+	
+	- groove - Define um esboço ranhuras 3D. O efeito depende do valor outline-color
+	
+	- ridge - Define um esboço ridged 3D. O efeito depende do valor outline-color
 
 - Exemplo de outline style:
 
