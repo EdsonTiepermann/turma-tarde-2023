@@ -1691,6 +1691,87 @@ selector::pseudo-element {
 
 
 <details>
-<summary>Aula 16 - dia 05 de Junho: </summary>
+<summary>Aula 16 - dia 05 de Junho: Propriedades flex-box </summary>
+	
+- Flex box
+	
+- Visa organizar os elementos de uma página HTML dentro dos seus containers de uma forma flexível e dinâmica dentro do seu elemento pai, independente das suas dimensões.
+	
+	- display: flex;
+	
+- Propriedade de direção
+	
+	- flex-direction: row; 
+		
+	- column;
+	
+	- column-reverse;
+	
+	- row-reverse;
+	
+- justify-content: flex-start; (eixo horizontal)
+	
+	- flex-end;
+	
+	- center;
+	
+	- space-between;
+	
+	- space-around;
+
+- align-items: flex-start; (eixo vertical)
+	
+	- flex-end;
+	
+	- center;
+	
+	- stretch;
+	
+	- baseline;
+
+ - flex-wrap: nowrap;
+	
+	-wrap;
+	
+	-wrap-reverse;
+
+- flex-flow: (propriedade para definir 2 valores de uma só vez)
+	
+	- flex-flow: row wrap;
+
+- align-content: flex-start; (quando tempos a propriedade wrap)
+	
+	- flex-end;
+	
+	- center;
+	
+	- stretch;
+	
+	- space-between;
+	
+	- space-around;
+
+- Espaçamento entre os itens, inserido no container
+	
+	- row-gap: 10px;
+	
+	- column-gap: 20px;
+	
+	- gap: 10px 20px;
+
+- Site para apoio com as propriedades flex.
+	
+	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+	
+	
+</details>
+	
+<details>
+<summary>Aula 17 - dia 09 de Junho: </summary>
+	
+</details>
+	
+<details>
+<summary>Aula 18 - dia 09 de Junho: </summary>
 	
 </details>
