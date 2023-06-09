@@ -1768,8 +1768,102 @@ selector::pseudo-element {
 </details>
 	
 <details>
-<summary>Aula 17 - dia 09 de Junho: </summary>
+<summary>Aula 17 - dia 09 de Junho: Display Grid</summary>
 	
+- Grid
+	
+	- Se baseia em um layout de linhas (rows) e colunas (columns)
+
+	- Elementos: possui um elemento pai e elementos filhos
+	
+		- container / items
+
+	- display: grid;
+	
+	![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/ff580729-0c09-4a9b-9c90-c51583767f1d)
+
+	![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/43fd2eda-cdc0-4e1f-b032-4e6426da384e)
+
+	![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/d875cce0-0bbe-4e08-8d5d-8b08ff07fdb4)
+
+- display: grid; (define uma propriedade grid)
+	
+- grid-template-columns: auto auto; (define a quantidade e tamanho das colunas)
+	
+	- grid-template-columns: auto auto auto auto;
+	
+	- grid-template-columns: 80px 200px auto 40px;
+	
+	- grid-template-rows: 50px auto 150px; (define altura para as linhas)
+
+	- grid-column-gap: 10px; (define espaço entre as colunas)
+	
+	- grid-row-gap: 10px; (define espaço entre as linhas)
+	
+	- gap: 20px; (define espaço na linha e coluna)
+	
+	- justify-content:; (alinhamento horizontal do container) 
+
+	- align-content:; (alinhamento vertical do container)
+
+- Definições de inicio e fim do elemento filho para colunas
+	
+	- grid-column-start: 1; 
+	
+	- grid-column-end: 3;
+	
+	- grid-column: 1 / 3;
+	
+	- grid-column: 1 / span 3;
+	
+- Definições de inicio e fim do elemento filho para linhas
+	
+	- grid-row-start: 1;
+	
+	- grid-row-end: 3;
+	
+	- grid-row: 1 / 3;
+	
+	- grid-row: 1 / span 3;
+
+	- grid-area: 1 / 2 / 5 / 6 ; (grid-row-start, grid-column-start, grid-row-end, grid-column-end)
+	
+- Nomeando grid areas
+	
+.item1 {
+    grid-area: myArea;
+}
+	
+.grid-container {
+    grid-template-areas: 'myArea myArea myArea myArea myArea';
+}
+	
+Cada linha  do grid é definida por apóstrofos ' ', cada coluna do grid é separada por espaço
+
+- Define regras de estilo para diferentes tipos de tela
+	
+- Verifica comprimento e altura, orientação (retrato/paisagem) e resolução do navegador/dispositivo
+
+@media only screen and (min-width: 768px) { 
+declaração css (Desktop);
+}
+
+@media only screen and (max-width: 768px) { 
+declaração css (Dispositivo móvel);
+}
+	
+	
+Exercício
+
+- realizar o fork e o clone do repositório ex-grid-tarde.
+	
+- após o clone criar uma pasta com seu nome.
+	
+- dentro da sua pasta criar um arquivo e recriar uma landing page com um tamplate responsivo como no exemplo abaixo.
+	
+	![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/405f8186-8d2b-4e73-8dda-1d69c8bb5f85)
+
+
 </details>
 	
 <details>
