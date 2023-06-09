@@ -1859,7 +1859,7 @@ Exercício
 	
 - após o clone criar uma pasta com seu nome.
 	
-- dentro da sua pasta criar um arquivo e recriar uma landing page com um tamplate responsivo como no exemplo abaixo.
+- dentro da sua pasta criar um arquivo e recriar uma landing page com um template responsivo como no exemplo abaixo.
 	
 	![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/405f8186-8d2b-4e73-8dda-1d69c8bb5f85)
 
