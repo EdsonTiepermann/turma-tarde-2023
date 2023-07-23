@@ -1909,6 +1909,164 @@ Como na parte do HTML, as declarações do CSS também devem ser realizadas de f
 </details>
 
 <details>
-<summary>Aula 19 - dia 09 de Junho: </summary>
+<summary>Aula 19 - dia 21 de Julho: Algoritimos</summary>
+	
+-IntroduçãoIntrodução
+
+	- Algoritmo é um termo da área de TI para definir um conjunto básico de regras.
+
+	- Sequência de instruções para alcançar um objetivo, sendo que as instruções são finitas.
+	Podemos comparar como uma receita de bolo.
+
+-Variáveis
+
+	- É um espaço na memória do computador, destinado a um armazenamento de dado que pode ser alterado durante a execução do algoritmo.
+
+	- Para o funcionamento correto as variáveis são definidas por tipos.
+
+-Tipos de vvariáveis
+
+	- inteiro: números inteiros (0, 1, 2, 3 ….)
+ 
+	- reais: números inteiro e decimais (0; 1,2; 2,1; 3 …)
+ 
+	- caracteres: números reais, letras e outros símbolos
+ 
+	- logico: comando de VERDADEIRO ou FALSO
+
+-Atribuição no portugol de variáveis
+
+	- nome_variavel := expressão;
+
+	- num2 := 10;
+
+ -Comandos
+
+	- Comandos de Entrada (leitura)
+ 
+		- Ex: Leia
+
+	- Comandos de Saída (escrita)
+ 
+		- Ex: Escreva
+  
+-Operador lógico
+
+	- ||    ou
+
+	- &&    e
+
+ -Condicional
+
+ - Possibilita a escolha de um grupo de ações e estrutura a serem executadas quando determinadas condições são ou não satisfeitas.
+
+   
+-Ex 1.
+ 
+	Inicio
+	SE condição ENTAO
+	comando
+		SENAO
+			comando
+		FIM SE
+		Fimalgoritmo
+
+
+-Ex 2.
+
+	SE a = 1 && a <= 3 ENTAO
+	comando
+		SENAO
+			comando
+		FIM SE
+
+-Ex 3.
+
+	SE a = 1 || a = 3 ENTAO
+	comando
+		SENAO
+			comando
+		FIM SE
+
+-Ex 4.
+
+	Inicio
+	SE condição ENTAO
+	comando
+		SENAO
+			comando
+		FIM SE
+		Fimalgoritmo
+
+
+  - Operadir relacional
+
+    ![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/d4b681eb-eee9-4ac2-a80d-35b9a43c38ef)
+
+    
+-Ex 5.
+
+	Algoritmo “valor_x”
+	var x: inteiro;
+	Inicio
+		x:= 10;
+		Escreva(“O valor de x é”, x);
+	Fimalgoritmo
+
+ -Ex 6.
+
+	Algoritmo “ler_numero”
+	var x: inteiro;
+	Inicio
+		Escreva(“Informe o valor de x:”);
+		Leia(x);
+		Escreva(“O valor digitado foi: ”, x);
+	Fimalgoritmo
+
+ -Ex 7.
+
+ 	Algoritmo “verificar_lampada”
+	var lampada: inteiro;
+	Inicio
+	Escreva(“Se a lampada estiver acesa digite 1 senão 0:”);
+	Leia(lampada);
+		SE lampada = 1 ENTAO
+			Escreva(“A lampada está acesa”);
+		SENAO
+			Escreva(“A lampada está apagada”);
+		Fim SE
+	Fimalgoritmo
+
+ -Fluxograma.
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/892ff16a-867c-4dc2-b8be-5ced99ed6ff9)
+
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/a644525c-0392-4c20-ab6e-66542e930a1d)
+
+
+Exercícios:
+
+-1- Desenvolva um algoritmo capaz de encontrar o menor entre 3 números.
+
+-2- Em uma escola, a média final é dada pela média aritmética de três números. E a mesma tem o seguinte esquema de avaliação. Média situação do aluno.
+Desenvolva um algoritmo que a partir da entrada das três notas mostra a situação do aluno.
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/b7dd8257-e8af-4921-8fcb-f8b693ef336b)
+
+-3- Em uma loja de CD’s existem apenas quatro tipos de preços que estão associados a cores. Assim os CD’s que ficam na loja não são marcados por preços e sim por cores.
+Desenvolva um algoritmo que a partir da entrada da cor o software mostra o preço. A loja está atualmente com a seguinte tabela de preço.
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/e17551e3-04a1-4a62-adb2-dd1be16f1d14)
+
+</details>
+
+<details>
+<summary>Aula 20 - dia 24 de Julho: Java Script</summary>
+	
+</details>
+
+<details>
+<summary>Aula 21 - dia 28 de Junho: </summary>
 	
 </details>
