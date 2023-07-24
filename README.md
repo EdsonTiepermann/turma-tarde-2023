@@ -783,6 +783,8 @@ https://www.google.com.br/logos/2017/logo17/logo17.html?hl=pt-BR
 
 </details>
 
+------------------------------------------HTML------------------------------------------
+
 <details>
 <summary>Aula 8 - dia 10 de Abril: Editor de código fonte/ introdução HTML </summary>
   
@@ -1235,7 +1237,7 @@ com a barra (/).
   ~~~
 </details>  
   
-  
+------------------------------------------CSS-------------------------------------------
     
 <details>
 <summary>Aula 13 - dia 26 de Maio: Introdução CSS</summary>
@@ -1908,6 +1910,8 @@ Como na parte do HTML, as declarações do CSS também devem ser realizadas de f
 	
 </details>
 
+------------------------------------------JS--------------------------------------------
+
 <details>
 <summary>Aula 19 - dia 21 de Julho: Algoritimos</summary>
 	
@@ -2063,7 +2067,162 @@ Desenvolva um algoritmo que a partir da entrada da cor o software mostra o preç
 
 <details>
 <summary>Aula 20 - dia 24 de Julho: Java Script</summary>
-	
+
+EdsonTiepermann/exercicios-js-tarde-2023
+
+fholtz/exercicios-js-noite-2023
+
+- Conhecida como JS é uma linguagem de programação dinâmica, cheia de recursos quando aplicada em um documento HTML, pode fornecer interatividade dinâmica em sites
+  
+- Sempre que uma página web faz mais do que apenas mostrar informações estáticas para você - ela mostra em tempo real conteúdos atualizados, mapas interativos, animações gráficas em 2D/3D, vídeos, etc. - você pode apostar que o Javascript provavelmente está envolvido
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/bc438cf3-4b90-4701-ad2b-8a291b1bad86)
+
+-Interno
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/192a6104-5617-4084-bd32-04350713b647)
+
+-Externo
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/9fa81d27-6bc9-4a49-b069-f010eade6158)
+
+- Há um considerável número de problemas envolvendo o carregamento de scripts na ordem correta
+Um problema comum é que todo o HTML de uma página é carregado na ordem em que ele aparece. Se você estiver usando Javascript para manipular alguns elementos da página, seu código não irá funcionar caso o JavaScript for carregado e executado antes mesmo dos elementos HTML estarem disponíveis.
+
+- Para evitar isso, script interno é colocado antes de </body>
+
+-Comentários
+
+linha 
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/f4f6d17e-e5b8-41e9-9eae-dc96347bac61)
+
+
+linhas
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/bd3c6c11-0da3-450b-9731-5cc1ae2f55eb)
+
+-Variáveis
+
+-Variáveis são espaços na memória do computador onde você pode armazenar dados
+  
+	- let minhaVariavel = “Edson”;
+	- var minhavariavel = “Edson”;
+   
+-Lembrando que o JavaScript é case sensitive
+
+-Após atribuir um valor a variável, ela pode ser manipulada e ter o seu valor alterado
+
+	- Ex.
+	- let minhaVariavel = “Tiepermann”;
+
+-Utilizar somente caracteres latinos (0-9, a-z, A-Z) e o caractere underline ( _ )
+
+-Não use underline no início do nome de variáveis
+
+-Não use número no início do nome de variáveis
+
+-Utilizar lower camel case: minhaVariavel
+
+-Nomes intuitivos, para que descrevam o dado que ela contém
+
+-var
+
+	- Enviada para o escopo geral do seu JS, fica como global
+ 
+-let
+
+	- Fica disponível em um local específico do seu código
+	- Evita consumo excessivo de memória
+	- Evita troca de valores das variáveis
+ 
+-JS é conhecido como tipagem dinâmica, ou seja, não necessita declarar o tipo da variável antes da atribuição
+
+	Boolean
+	Null
+	Undefined 
+	Number
+	BigInt
+	String
+	Object
+
+-Boolean
+
+	- Conhecido como tipo lógico
+-Null
+
+	- Representa uma valor nulo ou vazio
+ 
+-Undefined 
+
+	-Variáveis recentemente declaradas, mas que não existem argumentos atribuídos
+ 
+-Number
+
+	-Tipo de dado numérico 64bits
+
+-BigInt
+
+	-Tipo numérico para evitar estouro de memória
+ 
+-String
+
+	-Sequência de caracteres 
+ 
+-Object
+
+	-Refere-se a uma estrutura de dados contendo dados e instruções para se trabalhar com esses dados. Algumas vezes podem se referir a coisas do mundo real
+
+-Operadores aritméticos
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/3655ddbb-02d8-4f93-b3f0-5dd8cfc7c974)
+
+-Operadores de atribuição
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/f3538c5b-2ab0-4da9-8022-5fea70ff056b)
+
+Operadores de comparação
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/a55f26cb-7f6e-4f3f-8fed-052dbb0a9730)
+
+-Operadores relacionais
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/76f46e97-9058-4c78-be16-1f38fd6ee185)
+
+-O tipo mais comum e mais utilizado de condicional no JS: condicional if…else
+
+Estrutura e como utilizar:
+
+	if (condição) {
+		executa o código caso a condição seja verdadeira
+	} else {
+		senão, executa este código
+	}
+
+-Existe uma maneira de encadear escolhas/resultados extras ao seu if…else, utilizando o else if
+Estrutura e como utilizar:
+
+	if (condição) {
+		executa o código caso a condição seja verdadeira
+	} else if (condição) {
+		senão se, executa este código
+	} else {
+		senão, executa este código
+	}
+
+-É perfeitamente correto a utilização do if…else dentro de outro if…else
+Exemplo:
+
+	if (prof == “Edson”) {
+		if (turma == “tarde”) {
+			console.log(“professor da turma da tarde”);
+		}	
+	} else {
+		console.log(“professor da turma da noite”);
+	}
+
+-Exercícios no repositório de exercícios.
+
 </details>
 
 <details>
