@@ -2226,6 +2226,46 @@ Exemplo:
 </details>
 
 <details>
-<summary>Aula 21 - dia 28 de Junho: </summary>
+<summary>Aula 21 - dia 28 de Junho: JS - Switch </summary>
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/43ea4df7-b08c-4f3e-b402-0f277f6bdd6a)
+
+- A condicional switch avalia uma expressão, combinando o valor da expressão para a cláusula case, e executa as instruções associadas ao case.
+Exemplo: Obtenha uma entrada com o nome de um mês e mostre na tela a estação do ano relacionada ao mês.
+
+-E apresente no console um texto referente ao que vai ser mostrado e a variável em questão.
+
+	-console.log(“o texto digitado” + variavel);
+
+-Março, Abril, Maio - Outono
+
+-Junho, Julho, agosto - Inverno
+
+-Setembro, Outubro, Novembro - Primavera
+
+-Dezembro, Janeiro, Fevereiro - Verão
+
+	const expr = Janeiro;
+	switch (expr) {
+  	case Janeiro:
+    		console.log('O mês’ + expr + ‘é a estação Verão' );
+    	break;
+  	case Fevereiro:
+    		console.log('O mês’ + expr + ‘é a estação Verão' );
+   	break;
+	…
+  	case Fevereiro:
+    		console.log('O mês’ + expr + ‘é a estação Verão' );
+    	break;
+	…
+  	default:
+    		console.log(`Mês digitado inexistente, o digitado foi` + expr );
+
+	
+</details>
+
+
+<details>
+<summary>Aula 22 - dia 31 de Junho: </summary>
 	
 </details>
