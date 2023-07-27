@@ -2066,7 +2066,7 @@ Desenvolva um algoritmo que a partir da entrada da cor o software mostra o preç
 </details>
 
 <details>
-<summary>Aula 20 - dia 24 de Julho: Java Script</summary>
+<summary>Aula 20 - dia 24 de Julho: Java Script e Condicionais</summary>
 
 EdsonTiepermann/exercicios-js-tarde-2023
 
@@ -2226,7 +2226,7 @@ Exemplo:
 </details>
 
 <details>
-<summary>Aula 21 - dia 28 de Junho: JS - Switch </summary>
+<summary>Aula 21 - dia 28 de Julho: JS - Switch </summary>
 
 ![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/43ea4df7-b08c-4f3e-b402-0f277f6bdd6a)
 
