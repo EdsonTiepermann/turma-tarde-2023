@@ -2266,6 +2266,6 @@ Exemplo: Obtenha uma entrada com o nome de um mês e mostre na tela a estação 
 
 
 <details>
-<summary>Aula 22 - dia 31 de Junho: </summary>
+<summary>Aula 22 - dia 31 de Julho: </summary>
 	
 </details>
