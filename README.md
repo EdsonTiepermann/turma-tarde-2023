@@ -2266,6 +2266,126 @@ Exemplo: Obtenha uma entrada com o nome de um mês e mostre na tela a estação 
 
 
 <details>
-<summary>Aula 22 - dia 31 de Julho: </summary>
+<summary>Aula 22 - dia 04 de Agosto: Laço de repetição (Loop) WHILE/DO WHILE/FOR</summary>
+
+- É uma estrutura que permite executar mais de uma vez o mesmo comando ou um conjunto de comandos
+- É uma lógica que faz um bloco de código se repetir por um número definido ou indefinido de vezes (finito), enquanto uma condição é satisfeita
+- Repetição/Laço/Iteração
+
+Ex: Pizza (comer pizza)
+
+8 fatias
+comerPizza();
+comerPizza();
+comerPizza();
+comerPizza();
+comerPizza();
+comerPizza();
+comerPizza();
+comerPizza();
+
+…e se for cortada em 16 fatias, 20 fatias? E se não souber quantas fatias tem?
+< Não irá comer a pizza inteira dessa forma
+
+Solução:
+
+	enquanto (temPizza()) {
+	    comerPizza();
+	} 					
+
+*Mais eficiente
+
+
+- WHILE
+
+- DO WHILE
+
+- FOR
+
+
+- WHILE
+
+		let contador = 0;
+		
+		while (contador < 3) {
+		    console.log(“Bom dia”);
+		    contador++;
+		} 
+		
+		*sem contador++: loop infinito
+
+
+		let contador = 0;
+		
+		while (contador < 3) {
+		    console.log(“Etapa ”,contador);
+		    contador++;
+		} 
+		
+		*sem contador++: loop infinito
+		
+		
+		let n = 0;
+		let x = 0; 
+		
+		while (n < 3) {
+		    x += n;
+		    n++;
+		} 
+		
+		0
+		1
+		3
+		
+		
+		let n = 0;
+		let x = 0; 
+		
+		while (n < 3) {
+		    n++;
+		    x = x+n;
+		} 
+		
+		
+		1
+		3
+		6
+
+
+- DO WHILE
+
+		let resultado = 0;
+		let i = 0; 
+		
+		do {
+		i+=1;
+		    resultado = resultado +1;
+		} while (i < 5);
+
+
+- FOR
+  
+		for ([inicialização]; [condição]; [expressão final]) {
+		    declaração
+		}
+
+		for (let i = 0; i < 9; i++) {
+		   console.log(i);
+		}
+		
+		
+		let i = 0;
+		for (i; i < 9; i++) {
+		    console.log(i);
+		}
+
+
+::EXERCÍCIOS::
+No repositório de exercícios.
+	
+</details>
+
+<details>
+<summary>Aula 23 - dia 07 de Agosto: </summary>
 	
 </details>
