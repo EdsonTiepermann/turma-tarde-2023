@@ -2386,6 +2386,75 @@ No repositório de exercícios.
 </details>
 
 <details>
-<summary>Aula 23 - dia 07 de Agosto: </summary>
+<summary>Aula 23 - dia 07 de Agosto: Array</summary>
+O  que é um Array?
+
+-Tipo de variável.
+
+-Estruturas que servem para armazenar dados, e organiza-los. Seu objetivo é ter um espaço fixo na memória do computador que armazena elementos, e esses elementos podem ser acessados através de índice. 
+
+-Conseguem armazenar vários valores diferentes, ordenados numericamente através de posições (índices).
+
+-Exemplo: um array com 5 frutas.
+
+	let array = [‘pera’, ‘uva’, ‘maça’, ‘banana’, ‘melão’]
+		    [  0,      1,     2,       3,       4    ]
+
+-São objetos de alto nível semelhantes a listas. Vem com uma série de métodos embutidos para realizar operações de travessia e mutação, nem o tamanho nem os tipos dos elementos são fixos.
+
+-Array contendo frutas.
+
+	let frutas = [‘Maça’, ‘Banana’]
+		console.log(frutas.lenght);
+
+-Como acessar um item do array?
+
+	let primeiro = frutas[0];
+	let segundo = frutas[1];
+	let ultimo = frutas[frutas.lenght -1];
+
+-Adicionar um item ao final do Array: push
+
+	var adicionar = frutas.push(‘Laranja’);
+
+-Remover um item do Array: pop
+
+	var ultimo = frutas.pop(); 
+	//nesse exemplo removeria a laranja
+
+-Remover do início do Array: shift
+
+	var primeiro = frutas.shift();
+
+-Adicionar ao início do Array: unshift
+
+	var adicionarPrimeiro = frutas.unshift(‘Morango’); 
+
+-Procurar o índice de um item no Array
+
+	var procurar = frutas.infexOf(‘Banana’);
+
+-Remover um item pela posição do índice: splice
+
+	var removeItem = frutas.splice(pos, 1);
+
+-Remover itens de uma posição do índice: splice
+
+	var vegetais = [‘Repolho’, ‘Nabo’, ‘Rabanete’, ‘Cenoura’];
+	console.log(vegetais);
+	var pos = 1, n = 2;
+	var itensRemovidos = vegetais.splice(pos, n);
+	console.log(vegetais);
+	console.log(itensRemovidos);
+
+-Copiar um array: slice
+
+	var copiar = frutas.slice();
+ 
+	
+</details>
+
+<details>
+<summary>Aula 24 - dia 11 de Agosto: </summary>
 	
 </details>
