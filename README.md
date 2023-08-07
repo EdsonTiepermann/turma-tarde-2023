@@ -2379,11 +2379,11 @@ Solução:
 		    console.log(i);
 		}
 
-
-::EXERCÍCIOS::
+EXERCÍCIOS
 No repositório de exercícios.
 	
 </details>
+
 
 <details>
 <summary>Aula 23 - dia 07 de Agosto: Array</summary>
@@ -2453,6 +2453,7 @@ O  que é um Array?
  
 	
 </details>
+
 
 <details>
 <summary>Aula 24 - dia 11 de Agosto: </summary>
