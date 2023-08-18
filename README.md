@@ -2456,6 +2456,44 @@ O  que é um Array?
 
 
 <details>
-<summary>Aula 24 - dia 11 de Agosto: </summary>
+<summary>Aula 24 - dia 11 de Agosto: Object </summary>
+
+-Similar com o array, porém array tem uma listagem numerada, já o objeto tem uma listagem nomeada, um objeto contém propriedades.
+Iniciando um objeto
+
+	-var carro = {}
+ 
+Difereça na inicialização:
+
+	-objeto = {}      !=   array = []
+
+Adicionando propriedades a um objeto.
+
+	-var carro = {
+	    fabricante: ‘Fiat’,
+	    modelo: ‘Uno’,
+	    peso: ‘900kg’
+	}
+
+-Para acessarmos um dado do objeto, será através da sua propriedade do objeto. Ex.
+
+	-console.log(carro.fabricante)
+ 
+-O this refere-se ao próprio elemento ao qual você está utilizando no escopo.
+
+-Com o objeto criado, conseguimos através do this, acessar e manipular dentro do console do navegador, utilizando o DOM Document Object Model.
+
+É possível criarmos um array de objetos
+
+	-var veiculos = [
+	    {tipo:’carro’, modelo:’corsa’},
+	    {tipo:’moto’, modelo:’fazer 250’},
+	    {tipo:’avião’, modelo:’cesna’},
+	]
+
+</details>
+
+<details>
+<summary>Aula 25 - dia 18 de Agosto: DESAFIO!!!</summary>
 	
 </details>
