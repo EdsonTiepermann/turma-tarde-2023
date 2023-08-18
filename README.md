@@ -2454,7 +2454,6 @@ O  que é um Array?
 	
 </details>
 
-
 <details>
 <summary>Aula 24 - dia 11 de Agosto: Object </summary>
 
@@ -2492,6 +2491,8 @@ Adicionando propriedades a um objeto.
 	]
 
 </details>
+
+
 
 <details>
 <summary>Aula 25 - dia 18 de Agosto: DESAFIO!!!</summary>
