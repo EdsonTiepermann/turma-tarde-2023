@@ -2495,6 +2495,38 @@ Adicionando propriedades a um objeto.
 
 
 <details>
-<summary>Aula 25 - dia 18 de Agosto: DESAFIO!!!</summary>
+<summary>Aula 25 - dia 25 de Agosto: Function</summary>
+
+-Funções são blocos de construção
+
+	-Um conjunto de instruções que executa uma ação
+
+-Nome da função;
+
+-Parâmetros (se necessário);
+
+-Bloco de instruções;
+
+-Retorno (se necessário);
+
+-Chamada da função;
+
+	function nomeFuncao(parametro) {
+		let instrucoes = bloco de instruções a realizar (que utiliza o parametro);
+
+		return instrucoes;
+	}
+
+
+	function nomeFuncao() {
+		let instrucoes = bloco de instruções a realizar;
+	}
+
+
+</details>
+
+
+<details>
+<summary>Aula 26 - dia 18 de Agosto: DESAFIO!!!</summary>
 	
 </details>
