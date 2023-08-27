@@ -2527,6 +2527,84 @@ Adicionando propriedades a um objeto.
 
 
 <details>
-<summary>Aula 26 - dia 18 de Agosto: DESAFIO!!!</summary>
+<summary>Aula 26 - dia 28 de Agosto: Bootstrap</summary>
+
+Bootstrap é um framework
+
+-Framework = estrutura.
+
+-Termo utilizado para estratégias e ações que visa solucionar problemas.
+
+-Framework vai muito além do que na área de de programação
+
+-Ferramenta.
+
+-Framework para desenvolvimento.
+
+-Responsivo 
+
+-Framework Front End
+
+-Um dos frameworks CSS mais populares 
+
+-Alguns exemplos de utilização
+
+	-Botões 
+ 
+	-Formulários
+ 
+	-Tabelas
+ 
+	-etc.
+ 
+ -Utilização Bootstrap
+
+ 	-https://getbootstrap.com/
+  
+	-Vamos utilizar o CDN
+ 
+	-Copia do site do bootstrap os links do css e js
+
+</details>
+
+
+<details>
+<summary>Aula 26 - dia 28 de Agosto: DOM - Document Object Model</summary>
+
+-Objeto
+
+-Utilizado para a representação e interação com um conjunto de objetos em seu navegador, ele dá acesso completo em seu website enquanto estamos rodando o JS dentro do navegador, onde os elementos/nós de cada documento são organizados em uma estrutura de árvore, chamado DOM.
+
+-A árvore DOM começa na raiz e é chamada de window, então tudo está dentro do window/janela, basicamente o seu navegador é um objeto DOM.
+
+-Dentro do window temos vários objetos, como na árvore a seguir
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/7d40de56-57bd-4609-b903-117638359913)
+
+-Elemento é tudo aquilo que aparece dentro da árvore DOM, podemos acessar de algumas maneiras.
+Por marca/tag
+
+	-Por id
+	-Por nome
+	-Por classe
+	-Por seletor
+
+EX:
+
+	-document.getElementsByTagName(“input”)
+
+ -Formas de seleção em JS
+
+	-getElementsByTagName(‘div’)[1];
+	-document.getElementById(‘idDoElemento’).innerHTML= cont
+	-document.getElementByName(‘nameDoELemento’).innerHtml
+	-document.getElementByClassName
+	-documento.querySelector(‘div#id’);
+
+</details>
+
+
+<details>
+<summary>Aula 27 - dia 18 de Agosto: DESAFIO!!!</summary>
 	
 </details>
