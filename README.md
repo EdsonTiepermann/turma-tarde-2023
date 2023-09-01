@@ -2493,9 +2493,14 @@ Adicionando propriedades a um objeto.
 </details>
 
 
+<details>
+<summary>Aula 25 - dia 18 de Agosto: DESAFIO!!!</summary>
+	
+</details>
+
 
 <details>
-<summary>Aula 25 - dia 25 de Agosto: Function</summary>
+<summary>Aula 26 - dia 25 de Agosto: Function</summary>
 
 -Funções são blocos de construção
 
@@ -2527,7 +2532,7 @@ Adicionando propriedades a um objeto.
 
 
 <details>
-<summary>Aula 26 - dia 28 de Agosto: Bootstrap</summary>
+<summary>Aula 27 - dia 28 de Agosto: Bootstrap</summary>
 
 Bootstrap é um framework
 
@@ -2569,7 +2574,7 @@ Bootstrap é um framework
 
 
 <details>
-<summary>Aula 26 - dia 28 de Agosto: DOM - Document Object Model</summary>
+<summary>Aula 28 - dia 28 de Agosto: DOM - Document Object Model</summary>
 
 -Objeto
 
@@ -2604,7 +2609,40 @@ EX:
 </details>
 
 
+
+
 <details>
-<summary>Aula 27 - dia 18 de Agosto: DESAFIO!!!</summary>
+<summary>Aula 29 - dia 01 de Setembro: DOM - Document Object Model/ Events</summary>
+
+-formas de capturar os valores dos elementos.
+
+	getElementsByTagName(‘div’)[1].value
+
+	document.getElementById(‘idDoElemento’).value
+
+	document.getElementByName(‘nameDoELemento’).value
+
+	document.getElementByClassName.value
+
+	documento.querySelector(‘div#id’).value
+
+-Eventos são ações que acontecem na página que estamos desenvolvendo
+
+-Alguns tipos de eventos:
+
+	-Uma página termina de carregar
+	-Um campo input teve seu valor alterado
+	-Um botão foi clicado
+
+-Por exemplo, se o usuário clica em um botão numa página, você pode querer mostrar na tela uma caixa de informação
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/3d122bb6-1574-4a79-82fe-8f91be441ad1)
+
+ 
+</details>
+
+
+<details>
+<summary>Aula 30 - dia 04 de Setembro: DESAFIO!!!</summary>
 	
 </details>
