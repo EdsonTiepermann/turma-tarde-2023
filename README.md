@@ -2643,6 +2643,28 @@ EX:
 
 
 <details>
-<summary>Aula 30 - dia 04 de Setembro: DESAFIO!!!</summary>
+<summary>Aula 30 - dia 08 de Setembro: Event Listener</summary>
+
+-Uma outra forma de chamar um evento é através do addEventListener
+
+ex.
+
+	-document.getElementById("idDoElemento").addEventListener("oEvento", aFuncao);
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/2b2ad9b4-2043-4579-ac22-41fd1aca3d47)
+
+-Pode ser utilizado os mesmo metodos, porém no evento listener tirasse o ON no começo dos métodos.
+
+-ex.
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/107e9276-fba8-42e5-98a5-5bf0e1c8403c)
+
+	
+</details>
+
+
+
+<details>
+<summary>Aula 31 - dia 11 de Setembro: DESAFIO!!!</summary>
 	
 </details>
