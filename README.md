@@ -2665,6 +2665,33 @@ ex.
 
 
 <details>
-<summary>Aula 31 - dia 11 de Setembro: DESAFIO!!!</summary>
+<summary>Aula 31 - dia 17 de Setembro: AJAX !!!</summary>
+
+-Tecnologia nativa do JavaScript.
+
+-Asynchronous JavaScript XML
+
+-Transaciona dados entre o Front-End e o Back-End sem a necessidade de atualizar a página.
+
+-Isso se dá a um processamento chamado assíncrono.
+
+-Assincrono, realiza o processo em ordem do mais rápido sem travar os demais processamentos.
+
+	-url: 
+		-Aqui você informa ao AJAX onde você quer executar esse script
+	-Method:
+		-Você escolhe se será por get ou post
+	-data:
+		-{//o objeto}
+
+https://viacep.com.br/
+
+Exercícios, copie o código apresentado em sala, e incremente o script para que o o retorno da API ViaCEP apresente as informações na tela, e não somente do console.log
+
+</details>
+
+
+<details>
+<summary>Aula 32 - dia 11 de Setembro: </summary>
 	
 </details>
