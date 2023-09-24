@@ -2692,6 +2692,34 @@ Exercícios, copie o código apresentado em sala, e incremente o script para que
 
 
 <details>
-<summary>Aula 32 - dia 11 de Setembro: </summary>
+<summary>Aula 32 - dia 24 de Setembro: Desafio API de clima</summary>
+
+-Acessar o gitHub EdsonTiepermann e realizar o fork do repositório
+
+	exercicio-api-clima-turma-tarde
+
+-Baixar clonar o seu fork e criar os arquivos necessário somente dentro da pasta com o seu nome.
+
+-Da mesma forma que foi realizado o consumo da API de endereços, utilize a API de clima do site:
+
+	https://hgbrasil.com/status/weather
+
+-Leia a documentação da api e adquira a chave gerada pelo site, crie seu cadastro e receba a chave em seu email.
+
+-Mostre na tela do computador junto com o HTML e CSS ou bootstrap as informações 
+
+	-Cidade
+	-Data
+	-Hora atual
+	-Temperatura
+	-Condição do tempo
+	-Horário do amanhecer
+	-Horário do entardecer
+	
+</details>
+
+
+<details>
+<summary>Aula 33 - dia 11 de Setembro: </summary>
 	
 </details>
