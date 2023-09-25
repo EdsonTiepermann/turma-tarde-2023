@@ -2704,6 +2704,8 @@ Exercícios, copie o código apresentado em sala, e incremente o script para que
 
 	https://hgbrasil.com/status/weather
 
+ 	'https://api.hgbrasil.com/weather?format=json-cors&key=sua_chave&city_name=Concatena_com_a_variavel, options'
+
 -Leia a documentação da api e adquira a chave gerada pelo site, crie seu cadastro e receba a chave em seu email.
 
 -Mostre na tela do computador junto com o HTML e CSS ou bootstrap as informações 
