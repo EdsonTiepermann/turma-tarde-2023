@@ -2692,7 +2692,7 @@ Exercícios, copie o código apresentado em sala, e incremente o script para que
 
 
 <details>
-<summary>Aula 32 - dia 24 de Setembro: Desafio API de clima</summary>
+<summary>Aula 32 - dia 25 de Setembro: Desafio API de clima</summary>
 
 -Acessar o gitHub EdsonTiepermann e realizar o fork do repositório
 
