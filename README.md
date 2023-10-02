@@ -2692,7 +2692,7 @@ Exercícios, copie o código apresentado em sala, e incremente o script para que
 
 
 <details>
-<summary>Aula 32 - dia 25 de Setembro: Desafio API de clima</summary>
+<summary>Aula 32 - dia 26 de Setembro: Desafio API de clima</summary>
 
 -Acessar o gitHub EdsonTiepermann e realizar o fork do repositório
 
@@ -2722,6 +2722,16 @@ Exercícios, copie o código apresentado em sala, e incremente o script para que
 
 
 <details>
-<summary>Aula 33 - dia 11 de Setembro: </summary>
+<summary>Aula 33 - dia 02 de Outubro: Projeto de JS </summary>
+
+ 	Todas as informações referente ao projeto estão no repositório 
+	
+	prj-js-tarde-2023
+ 
+</details>
+
+
+<details>
+<summary>Aula 34 - dia 11 de Setembro: </summary>
 	
 </details>
