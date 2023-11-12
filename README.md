@@ -2730,8 +2730,87 @@ Exercícios, copie o código apresentado em sala, e incremente o script para que
  
 </details>
 
+------------------------------------------PHP--------------------------------------------
+
 
 <details>
-<summary>Aula 34 - dia 11 de Setembro: </summary>
+<summary>Aula 34 - dia 13 de Novembro: Introdução ao PHP </summary>
+	
+-Com o PHP é possível instruir uma página estática (criada somente com HTML e CSS) a executar ações específicas e complexas, como validar informações de formulários antes dos dados retornarem aos navegadores, como fazemos no JS.
+
+-Para mesclarmos o PHP junto ao HTML precisamos delimitar o PHP através de TAGs.
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/0a5d0a94-ce7f-41ff-9a7f-fa1142f86fd4)
+
+-O que diferencia o PHP de outras linguagens como por exemplo o JS, é que no lado do cliente, o código é executado no servidor, gerando o HTML e enviando ao navegador, o navegador recebe os resultados da execução desse script, mas não sabe qual é ao código fonte.
+	O PHP é focado em scripts do lado do servidor (Back    end), porém pode ser utilizado em diversa coisas, como coletar dados de um formulário, gerar páginas com conteúdo dinâmico, etc.
+
+-Scripts no lado do servidor (server-side), o mais tradicional e principal campo de atuação, para funcionar você precisa de três coisas:
+	- O interpretador do PHP.
+	- Um servidor web.
+	- Um navegador.
+
+ - Três principais áreas de utilização
+
+-Scripts em linha de comando. Você cria um script em PHP para executar sem um servidor ou navegador, a única coisa necessária é o interpretador. Esse é o tipo ideal para criação de cron (Unix, Linux) ou Agendador de tarefas (no Windows).
+
+-Escrever aplicações desktop, não é muito utilizado e não é a melhor linguagem para aplicações desktop com interface gráfica.
+
+- Vantagens do PHP
+  
+-Multiplataforma, pode ser desenvolvido para a maioria dos sistemas operacionais como Windows, Linux, algumas variantes do Unix, macOs, etc.
+
+-Multiplataforma de servidores.
+
+-Com o PHP você pode gerar o HTML, imagens, arquivos PDF e animações Flash.
+
+-Uma das principais características do PHP é seu suporte a vários bancos de dados.
+
+-Suporte para comunicações com outros serviços.
+
+- O que vamos precisar:
+
+-Editor de código fonte VS Code
+
+-Instalar o PHP
+
+-Servidor para interpretar o PHP (XAMPP).
+
+-Para localizar os arquivos, no navegador utilizamos na url o domínio de “localhost”
+
+- Primeiros comandos:
+
+-Tag PHP 
+
+	<?php “código necessário ”?>
+ 
+-Variáveis:
+
+	$variavel
+ 
+-Exemplo: $num = 10;
+
+Não pode ter espaço, o primeiro caractere não pode ser numérico, usar os padrões já comentados.
+
+-Concatenar variáveis:
+
+	-$nome = “Edson”;
+	-$sobrenome = “Tiepermann”;
+	-$nomeCompleto = $nome.” ”.$sobrenome;
+
+	$nomeCompleto = “$nome $sobrenome”;
+		echo $nomeCompleto;
+
+-Obs: ao utilizar aspas simples, o PHP interpreta que tudo que estiver dentro tem o valor literal.
+
+-Pratica:
+
+-Para fixarmos sobre a concatenação de variáveis, em PHP crie variáveis com seus nomes de forma separada, e em uma outra variável junte todos os nomes, fazendo seu nome aparecer de forma completa na tela, das formas que aprendemos na aula hoje.
 	
 </details>
+
+<details>
+<summary>Aula 35 - dia 17 de Novembro: </summary>
+	
+</details>
+
