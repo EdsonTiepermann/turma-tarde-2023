@@ -2810,7 +2810,82 @@ Não pode ter espaço, o primeiro caractere não pode ser numérico, usar os pad
 </details>
 
 <details>
-<summary>Aula 35 - dia 17 de Novembro: </summary>
+<summary>Aula 35 - dia 17 de Novembro: Variáveis, operadores lógicos/comparação, estrutura de decisão </summary>
+
+-repositórios
+
+EdsonTiepermann/exercicios-php-tarde-2023
+
+Kavalkievicz/exercicios-php-noite-2023
+
+-Variáveis
+
+	$nome = “Edson Luiz Tiepermann Junior 1988”; //String
+	$numero = 5; //integer suporta 5 digitos
+	$num = 3.14; //float ou double suporta até 14 casas decimais
+	$flag = true; //booleano
+	$nomes = [“Edson”, “João”, 35, 20]; //array
+	$null = null; //valor nulo
+
+-Operadores de comparação
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/e9d6ec2d-6c06-4af4-a724-9c268d3604c4)
+
+-Operadores lógicos
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/410d4ddb-c8a7-411a-9c79-38879677d8f3)
+
+
+-Estrutura de decisão
+
+
+-If else - O comando if instrui o computador a tomar uma decisão simples. O comando else, quando associado ao if, executará uma instrução (ou instruções) se a expressão de teste do comando if for falsa
+
+-Switch - O comando switch testa sucessivamente o valor de uma expressão contra uma lista de constantes inteiras ou caracteres. Quando o valor coincide, os comandos associados àquela constante são executados. 
+
+	$numero = 15;
+
+	if($numero == 15) {
+		return true;
+	} else {
+		return false;
+	}
+
+-Operador ternário
+
+//basicamente um if em uma linha
+
+	(CONDIÇÃO) ? RESULTADO VERDADEIRO : RESULTADO FALSO
+
+	$numero = 15;
+
+	echo ($numero == 15) ? “É igual a 15” : “Não é igual a 15”;
+
+	echo ($numero == 15) ? true : false;
+
+
+
+	$opcao = 3;
+
+	switch($opcao) {
+	case ‘1’:
+		echo “Você escolheu a primeira opção”;
+		break; 
+	case ‘2’:
+		echo “Você escolheu a segunda opção”;
+		break;
+	case ‘3’:
+		echo “Você escolheu a terceira opção”;
+		break;
+	default:
+		echo “Nenhuma das opções são válidas";
+
+	
+</details>
+
+
+<details>
+<summary>Aula 36 - dia 20 de Novembro: </summary>
 	
 </details>
 
