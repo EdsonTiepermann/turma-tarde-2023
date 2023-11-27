@@ -2885,7 +2885,49 @@ Kavalkievicz/exercicios-php-noite-2023
 
 
 <details>
-<summary>Aula 36 - dia 20 de Novembro: </summary>
+<summary>Aula 36 - dia 27 de Novembro: Estrutura de repetição </summary>
+
+-Estrutura de repetição.
+
+-É uma estrutura iterativa que executa uma ação ou um bloco verdade e permite sua repetição até que determinada condição seja verdadeira. É um registrador que passa por uma sequência arbitrária quando são aplicados pulsos de entrada ou na ocorrência de uma ação
+
+-while - O while é a estrutura de repetição mais simples do PHP. Com ele informamos que um bloco de código deve ser repetido enquanto a condição declarada for verdadeira.
+
+	$i = 1;
+	while ($i <= 10) {
+    		echo $i;
+    		$i++;
+	}
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/87d389af-f2eb-4635-b100-12fd76a51529)
+
+
+-do while - A diferença do while para o do-while é que, no do-while sempre acontece a primeira execução do bloco de comandos e a expressão booleana só é avaliada ao final de cada execução.
+– Se for verdadeira, o bloco de comandos é repetido;
+– Se for falso, o laço termina.
+
+	$i = 1;
+	do {
+   	  echo $i;
+    	  $i++;
+	} while ($i <= 10);
+
+ ![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/a9b27b47-4122-4170-b337-ad029af82a09)
+
+ - for - O for é uma estrutura de repetição na qual seu ciclo será executado por um tempo ou condição pré-determinados e em uma quantidade de vezes que determinamos.
+Quando utilizamos o for, precisamos de uma variável para auxiliar a controlar a quantidade de repetições a serem executadas. Essa variável é chamada de variável de controle e é declarada no primeiro argumento do for.
+
+		for ($i = 0; $i <= 10; $i++) {
+		    echo $i;
+      		}
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/f501666e-c9b0-43d7-8f75-923a6c60af14)
+
+
+</details>
+
+<details>
+<summary>Aula 37 - dia 20 de Novembro: </summary>
 	
 </details>
 
