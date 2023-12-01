@@ -2927,7 +2927,55 @@ Quando utilizamos o for, precisamos de uma variável para auxiliar a controlar a
 </details>
 
 <details>
-<summary>Aula 37 - dia 20 de Novembro: </summary>
+<summary>Aula 37 - dia 01 de Dezembro: Funções </summary>
+
+-Função
+
+-É um bloco de código que pode ser chamado de qualquer parte do código para executar uma tarefa, e a mesma deverá retornar um resultado, podemos passar zero ou quantos parâmetros forem necessários
+
+-Funções nativas
+
+-São funções nativas da linguagem, ou seja funções próprias da linguagem, já utilizamos em exercícios algumas dessas funções como por exemplo:
+
+	sort(); ordenação de array.
+	print_r(); mostrar em tela o array com as posições.
+	var_dump(); para “printarmos” o valor da variável e o tipo do resultado.
+ 
+-São funções onde passamos valores padrões em seus parâmetros, e caso esse valor seja alterado, podemos mudar na chamada da função.
+
+	function somar($num1, $num2, $num3 = 0) 
+	{
+		$total = $num1 + $num2 + num3;
+		Return $total;
+	}
+
+-São funções onde forçamos o tipo da variável em  seus parâmetros.
+
+	function somar($num1, $num2, int $num3) 
+	{
+		$total = $num1 + $num2 + num3;
+		Return $total;
+	}
+
+ 	function somar($num1, $num2, int $num3) 
+ 
+	{
+		$total = $num1 + $num2 + num3;
+		Return $total;
+	}
+ 
+
+	$x = 10; $y = 5; $z = 2;
+	$result = somar($x, $y, $z);
+	Echo “O resultado da soma eh: $result”;
+
+
+	
+</details>
+
+
+<details>
+<summary>Aula 38 - dia 20 de Novembro: </summary>
 	
 </details>
 
