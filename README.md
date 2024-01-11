@@ -3348,14 +3348,75 @@ Quando utilizamos o for, precisamos de uma variável para auxiliar a controlar a
 		
 		?>
 		
-
-
-	
 </details>
 
+<details>
+	
+<summary>Aula 39 - dia 11 de Janeiro/2024: Session, Include/Require e Classe </summary>
 
+Include e require
 
-<summary>Aula 39 - dia 20 de Novembro: </summary>
+- Em PHP, include e require são usados para incluir o conteúdo de um arquivo dentro de outro arquivo PHP. A diferença básica entre os dois está na forma como tratam erros quando o arquivo especificado não é encontrado.
+
+-include: Se o arquivo não for encontrado, o PHP emite um aviso (warning) e continua a execução do script.
+
+-require: Se o arquivo não for encontrado, o PHP emite um erro fatal (fatal error) e interrompe a execução do script.
+
+-Em termos de funcionamento, a diferença principal é a gravidade do erro que cada um produz quando o arquivo não pode ser incluído. Se o arquivo a ser incluído é essencial para o funcionamento correto do script, é mais seguro usar require para garantir que qualquer problema seja destacado imediatamente.
+
+Include_once e require_once
+
+-include_once e require_once: Essas funções são semelhantes ao include e require, respectivamente, mas elas verificam se o arquivo já foi incluído anteriormente durante a execução do script. Se o arquivo já tiver sido incluído antes, o PHP não o incluirá novamente. Isso é útil para evitar problemas com definições duplicadas de funções, classes ou variáveis quando se trabalha com múltiplos arquivos.
+
+Variáveis de sessão
+
+-É uma variável superglobal $_SESSION, que é um array associativo que contém variáveis de sessão que armazenam informações e podem ser utilizados a qualquer momento durante a navegação do usuário na aplicação web.
+
+- Com as variáveis de sessão podemos verificar se um usuário permanece logado, transportar produtos por exemplo de um carrinho de compras para outra página, entre outros.
+
+- Para utilizarmos primeiro precisamos iniciar a sessão, através do script
+
+session_start();
+
+-Na sequência basta montarmos o array com as variáveis da forma que precisamos.
+
+	-$_SESSION[‘hora’] = time();
+	-$_SESSION[usuario_logado] = $login;
+
+-Após montar o array da sessão, basta manipulá-lo da forma que for necessária, como já aprendemos no curso a enviar dados de um arquivo para o outro.
+
+Classe
+
+-Em PHP, uma classe é uma estrutura que permite organizar e encapsular código relacionado. Uma classe é como um modelo ou plano para criar objetos. Objetos são instâncias de uma classe, e eles encapsulam dados (propriedades) e comportamentos (métodos).
+
+-Nesse curso iremos aprender da maneira não orientada a objetos.
+
+-Para definir métodos estáticos dentro de uma classe, utilizaremos ‘public static function’
+
+-public: Indica que o método é acessível de fora da classe. Isso significa que o método pode ser chamado de qualquer lugar, seja dentro da classe, de uma classe filha ou de qualquer código externo que tenha acesso à classe.
+
+-static: Indica que o método é um método estático. Métodos estáticos pertencem à classe em vez de a uma instância específica da classe. Isso significa que você pode chamar o método diretamente na classe, sem precisar criar uma instância dela.
+
+-function: Indica que você está definindo uma função (método) dentro da classe.
+
+-Para declarar o nome da classe, utilizamos as normas do PSR.
+
+- Classes devem ser declaradas usando StudlyCaps ou PascalCase.
+- 
+-Que é um camelCase porém iniciando com a letra maiúscula
+
+-Para criar uma classe, você usa a palavra-chave class, seguida pelo nome da classe. Por exemplo:
+
+	-<?php
+	class MinhaClasse {
+	// propriedades e métodos serão definidos aqui
+	}
+	?>	
+ 
+</details>
+
+<details>
+<summary>Aula 40 - dia 20 de Janeiro/2024: </summary>
 	
 </details>
 
