@@ -3451,7 +3451,523 @@ Criar um ou mais arquivos para a(s) classe(s)
 </details>
 
 <details>
-<summary>Aula 41 - dia 20 de Janeiro/2024: </summary>
+<summary>Aula 42 - dia 19 de Janeiro/2024: </summary>
+
+-Banco de dados não relacional - NoSql
+
+-Permite que os dados sejam armazenados usando qualquer estrutura necessária, mas fornece uma maneira de atualizar esses dados ao alterar essa estrutura..
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/8e2a607f-75ec-4b77-b96f-dd395ffe8a80)
+
+- Banco de dados relacional
+
+- Armazenam os dados através de esquemas.
+
+  ![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/c605a962-e6f2-4c98-b2db-884e6052627f)
+
+- Modelo amplamente adotado devido a sua estrutura organizada, eficiente e segura.
+ 
+- Baseado na ideia em que o armazenamento dos dados podem ser organizados em tabelas. Conhecidas como relações.
+Cada tabela representa uma entidade ou conceito.
+
+- Cada coluna representa um atributo dessa entidade.
+
+- Propriedades do banco relacional
+
+  ![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/0c9ffd88-52a4-4625-b9ee-8f3d7588736e)
+
+- A - Garantir que a transação se realize por completo, ou não será feita, não tendo a possibilidade de ficar pela metade.
+  
+- C - Integridade dos dados, se o bd realizar uma operação que não seja válida, o processo é impedido e retornará para o estado inicial.
+  
+- I - Uma transação não atrapalha a outra.
+  
+- D - Uma vez que a transação for efetuada ela permanecerá dessa forma, mesmo que ocorra problemas graves no sistema.
+
+- Coleção de dados organizada, armazenados em meio eletrônico e que se relacionam de alguma forma, permitindo efetuar consultas que retornam os dados armazenados.
+  
+- Arquivo armazenado em algum meio, gerenciados por algum sistema específico de software, e utilizado por aplicações que acessam os dados armazenados.
+
+-Armazenamento - SGBD Sistema Gerenciador de Banco de Dados
+
+- Conjunto de softwares e ferramentas que faz a interação entre aplicações, usuários e o banco de dados.
+- 
+- Permite realizar consultas e enviar comando ao BD, não é o banco de dados em si, e sim um sistema  de banco de acesso e consulta através da SQL.
+
+  	- MySQL
+  	  
+	- MariaDB (fork do MySQL)
+   
+	- SQL Server
+   
+	-Postgres
+
+	-Oracle
+
+	-SQLite
+
+	-Sybase
+
+- SQL - Struct Query Language
+
+- É uma linguagem padrão para operações com banco de dados relacionais.
+  
+- Dentro de um SGBD conseguimos trabalhar com essa linguagem. 
+
+-Registros
+
+	-Inserir
+	-Excluir
+	-Alterar
+	-Selecionar
+	-Ordenar
+	-Juntar
+	-Mesclar
+	-Intercalar
+
+ -Tabelas
+ 
+	-Create 
+	-Alter
+	-Drop
+
+-A SQL é dividida em três partes:
+
+-LDD - Linguagem de Definição de dados 
+
+	-Create
+	-Drop
+	-Alter
+ 
+-LMD - Linguagem de Manipulação de dados
+
+	-Select
+	-Update
+	-Insert
+	-Delete
+
+ -LCD - Linguagem de Controle de Dados
+ 
+	-Grant
+	-Revoke 
+
+-Modelagem de dados
+
+-Entender como colocar as informações.
+
+	-Tabelas
+	-Colunas (column) / Campos
+	-Linhas (row) / Registros
+
+-Tipagem de dados
+
+-Numérico 
+
+	-Inteiro 
+	-TinyInt, SmalInt, Int, BigInt
+	-Real
+	-Decimal
+	-Float
+ 
+-Lógico	
+
+	-Bit
+	-Boolean
+
+-Data/tempo
+
+	-Date
+	-DateTime
+	-timeStamp
+	-Time
+	-Year
+
+-Literal
+
+	-Caracteres
+	-Char
+	-Varchar
+	-Texto
+	-tinyText 
+	-Text
+	-longText
+
+-Espacial (volumétrico)
+
+	-Geometry
+	-Point
+	-polygon
+
+- Cada tabela é criada com as características de cada coleção de dados a serem criados, por exemplo uma coleção de dados chamada clientes
+
+- Carlos
+30 anos
+Masc
+80.6 kg
+1.83 m
+Brasileiro  
+
+</details>
+
+
+<details>
+<summary>Aula 43 - dia 22 de Janeiro/2024: Banco de dados - manipulação de dados</summary>
+
+-Instrução para criar a base dos dados
+
+	CREATE DATABASE testeAula
+			DEFAULT CHARACTER SET utf8
+			DEFAULT COLLATE utf8_general_ci
+
+-Instrução para criar a tabela.
+
+	CREATE TABLE tabelaTesteCliente (
+		nome varchar(50),
+		idade tinyint,
+		sexo char(1),
+		peso float,
+		nacionalidade varchar(30)
+	)
+
+-Instrução para criar a exclusão da tabela.
+
+	DROP TABLE tabelaTesteCliente;
+
+ 	CREATE TABLE cliente (
+	id_cliente int NOT NULL AUTO_INCREMENT,
+	nome varchar(50) NOT NULL,
+	nascimento date,
+	sexo bit,
+	peso decimal (5,2),
+	altura decimal (3,2),
+	nacionalidade varchar(30),
+	PRIMARY KEY (id_cliente)
+	)DEFAULT CHARSET = utf8;
+
+ 
+- inserir dados
+
+	 	INSERT INTO cliente 
+			(nome, nascimento, sexo, peso, altura, nacionalidade)
+		VALUES
+			(‘carlos’, ‘1988-04-01’, ‘1’, ‘80.5’, ‘1.74’, ‘brasil’),
+			(‘maria’, ’1979-01-01’, ‘0’, ‘65’, ‘1.74’, ‘brasil’),
+			(‘antony’, ‘1964-08-15’, ‘1’, ‘99.5’, ‘1.74’, ‘estados unidos’),
+			(‘cleusa’, ‘1999-04-01’, ‘0’, ‘80.5’, ‘1.74’, ‘brasil’),
+			(‘enzo’, ‘2000-06-08’, ‘1’, ‘80.5’, ‘1.74’, ‘brasil’)
+
+-Selecionar td da tabela
+
+	SELECT * FROM clientes
+
+-Alterar coluna da tabela
+
+	ALTER TABLE cliente MODIFY COLUMN sexo INT DEFAULT NULL NULL;
+
+ -adicionar coluna a tabela
+
+ 	ALTER TABLE cliente ADD fk_cidade int
 	
 </details>
 
+<details>
+<summary>Aula 44 - dia 26 de Janeiro/2024: Banco de dados</summary>
+
+-Instruções de manipulação
+
+	-Select
+	-Update
+	-Insert
+	-Delete
+
+	 INSERT INTO cliente
+	(nome, nascimento, sexo, peso, altura, nacionalidade)
+	VALUES
+	('carlos','1998-04-01','1','80.5','1.74','brasil')
+
+	 CREATE TABLE cidades (
+	id_cidade int NOT NULL AUTO_INCREMENT,
+	nome_cidade varchar(50) NOT NULL
+	PRIMARY KEY (id_cidade )
+	)DEFAULT CHARSET = utf8;
+
+	INSERT INTO cidades 
+	(nome)
+	VALUES
+	(‘ponta grossa’),
+	(‘camboriu’),
+	(‘caxias do sul’),
+	(‘curitiba’)
+	
+	SELECT * FROM cliente
+	
+	
+	SELECT id, nome FROM cliente
+
+ 
+	
+	UPDATE cliente SET nome = ‘Edson’ WHERE id = ‘5’
+	
+	
+	UPDATE usuarios SET idade = ‘51’ WHERE id = ‘5’
+
+ 
+	DELETE FROM usuarios WHERE nome = ‘Edson’
+	
+	
+	DELETE FROM usuarios WHERE id = ‘5’
+
+	
+</details>
+
+<details>
+<summary>Aula 45 - dia 02 de Janeiro/2024: Banco de dados - junções e clausula where</summary>
+
+- CONSULTA EM VÁRIAS TABELAS
+
+	-Inner Join
+  
+	-Left Join
+  
+	-Right Join
+
+-INNER JOIN
+
+-Quando queremos juntar 2 ou mais tabelas. Retorna o resultado que contém nas duas tabelas
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/ad65131a-e0a0-45da-920b-5fc96769cdc7)
+
+-LEFT JOIN
+
+-Retorna todos os resultados contidos na tabela à ESQUERDA, mesmo que não tenha resultado na tabela da direita.
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/df2cd5da-1fb2-4d2e-af86-e9a31e6b826e)
+
+-RIGHT JOIN
+
+-Retorna todos os resultados contidos na tabela à DIREITA, mesmo que não tenha resultado na tabela da esquerda.
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/af19338a-6772-467b-8ac3-3c1f579d1599)
+
+-CLAUSULA WHERE
+
+-Para filtrar uma condição e apresentar os registros.
+Junto com o WHERE utilizamos operadores para assim podermos filtrar a(s) nossa(s) tabela(s)
+
+-OPERADORES RELACIONAIS
+
+-Utilizado para comparar as colunas
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/0392868e-defd-406b-b78e-87f91798c2f6)
+
+ex:
+
+	SELECT * FROM tb_clientes WHERE fk_cidade = ‘pg’
+	
+	SELECT * FROM tb_clientes WHERE fk_cidade != ‘pg’
+	
+	SELECT * FROM tb_clientes WHERE peso > 100
+
+
+- INTERVALOS BETWEEN
+
+-Utilizado para delimitar um intervalo entre valores.
+
+Exemplo:
+
+	SELECT * FROM tb_clientes WHERE data_nasc BETWEEN ‘1999-01-01’ AND ‘2000-01-01’
+
+Substitui:
+
+	a >= x AND a <= y
+
+-AND, OR	e NOT
+
+Utilizado para combinar com os operadores relacionais, onde várias condições sejam satisfeitas.
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/9e2c2c43-14a4-4b39-81c5-353e4ce8dc34)
+
+	SELECT * FROM tb_clientes WHERE idade >= ‘18’ 
+	AND idade <= ‘21’
+	
+	SELECT * FROM tb_clientes WHERE uf = ‘pr’ OR uf = ‘sc’;
+	
+	SELECT * FROM tb_clientes WHERE uf = ‘pr’ 
+	OR (uf = ‘mg’ AND ativo = 1);
+	
+	SELECT * FROM tb_clientes WHERE  NOT (idade >= ‘18’ 
+	AND idade <= ‘21’)
+
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/3ee94f9c-5c6c-4be1-add5-4856bd8d5618)
+
+	 SELECT * FROM tb_clientes WHERE cpf IS NULL;
+	
+	
+	SELECT * FROM tb_clientes WHERE cpf IS NOT NULL
+
+ -LIKE
+Utilizado para tratar e filtrar um registro pela sua string
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/d800d5db-281c-47b5-b796-1c5adb2e2869)
+
+
+	SELECT * FROM tb_clientes WHERE nome 
+	LIKE ‘maria%
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/5b1ea480-3886-4806-be84-508d7a1d43a0)
+
+
+	SELECT * FROM tb_clientes WHERE nome 
+	LIKE ‘%maria%’
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/40d4247d-6882-4d39-a825-ac3b902f87c8)
+
+-O comando Like ele é case sensitive então precisamos controlar com os comandos UPPER ou LOWER caso necessário. Ex:
+
+	SELECT * FROM tb_clientes WHERE UPPER(nome) 
+	LIKE ‘MARIA%’
+
+	SELECT * FROM tb_clientes WHERE nome 
+	LIKE ‘silvan_ de oliveira’;
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/bb10f848-9d87-47db-8069-79b53700f89d)
+
+	SELECT * FROM tb_clientes WHERE nome 
+	LIKE ‘silvan_ de oliveira’;
+
+ ![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/a3191731-b1bc-4c9c-934e-49ec566b1f96)
+
+ 
+-ORDER BY
+
+-Utilizado para ordenar os resultados da SQL por uma coluna podendo ser por ordem alfabética ou numérica
+
+	SELECT * FROM tb_clientes ORDER BY nome ASC;
+	
+	SELECT * FROM tb_clientes ORDER BY nome DESC;
+	
+	SELECT * FROM tb_clientes WHERE cpf IS NOT NULL
+	ORDER BY nome DESC;
+	
+	SELECT * FROM tb_clientes ORDER BY sexo, nome;
+
+
+-DISTINCT
+
+-Utilizado para saber os possíveis valores, e não suas repetições
+
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/b067fd79-321a-434a-8416-4a66fac10469)
+
+
+-LIMIT
+
+-Utilizado para trazer a quantidade necessária. Exemplo: 
+
+	SELECT *
+	FROM tb_alunos
+	LIMIT 2
+	ORDER BY ASC
+
+-IN
+
+-Utilizado para trazer os dados que estejam dentro da condição IN. Exemplo:
+
+	SELECT *
+	FROM tb_alunos
+	WHERE TRUE
+	AND idade IN(15,18,31,29,22)
+	ORDER BY ASC
+
+-SUM
+
+-Utilizado para somar valores inteiros ou reais. Exemplo:
+
+	SELECT SUM(idade)
+	FROM tb_alunos
+	WHERE TRUE
+	AND idade IN(15,18,31,29,22)
+	ORDER BY ASC
+
+-COUNT
+
+-Utilizado para contar a quantidade de dados retornados. Exemplo:
+
+	SELECT COUNT(idade)
+		FROM tb_alunos
+	WHERE TRUE
+		AND idade IN(15,18,31,29,22)
+	ORDER BY ASC
+
+-GROUP BY
+
+-Utilizado para agrupar dados de acordo com a condição. Exemplo:
+	
+	SELECT COUNT(idade)
+	FROM tb_alunos
+	WHERE TRUE
+	AND idade IN(15,18,31,29,22)
+	GROUP BY idade
+
+-MAX, MIN
+
+-Utilizado para localizar o maior ou o menor valor do campo selecionado:
+
+	SELECT *, MAX(idade)
+	FROM tb_alunos
+	
+	SELECT *, MIN(idade)
+	FROM tb_alunos
+
+
+-AVG
+
+-Utilizado para realizar a média de um campo numérico:
+
+	SELECT *, AVG(idade)
+	FROM tb_alunos
+	
+	SELECT (AVG(idade),2)
+	FROM tb_alunos
+
+
+-TRUNCATE
+
+-Utilizado para arredondar o valor de um campo ou cálculo (elimina os algarismos):
+
+	SELECT *, TRUNCATE(idade,0)
+	FROM tb_alunos
+
+-CONCAT
+
+-Utilizado para concatenar valores:
+
+	SELECT concat(Joao, ‘-’, Pedro);
+	Joao-Pedro
+
+</details>
+
+</details>
+
+<details>
+<summary>Aula 46 - dia 05 de Fevereiro/2024: Banco de dados - conexão</summary>
+
+-Conexão é a ponta entre o backend e o banco de dados. O PHP envia uma requisição e obtém uma resposta do banco de dados.
+
+	$mysqli = new mysqli(‘’, ‘root’, ‘aula_banco’);
+
+1- Faça uma tela e conext a sua base de dados, e liste na tela todos os alunos da tabela alunos.
+
+2- Faça uma tela que mostre somente os alunos de ponta grossa.
+
+ 
+</details>
+
+
+<details>
+<summary>Aula 47 - dia 05 de Fevereiro/2024: Banco de dados - conexão</summary>
+
+
+ 
+</details>
