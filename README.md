@@ -3957,6 +3957,13 @@ Utilizado para tratar e filtrar um registro pela sua string
 
 	$mysqli = new mysqli(‘’, ‘root’, ‘aula_banco’);
 
+-Realizando uma sql com conexão
+
+	$tua_sql = “SELECT * FROM tua_abela”;
+
+	$sql_conexao = $mysqli->query($tua_sql) ou die($mysqli->error)
+
+
 1- Faça uma tela e conext a sua base de dados, e liste na tela todos os alunos da tabela alunos.
 
 2- Faça uma tela que mostre somente os alunos de ponta grossa.
