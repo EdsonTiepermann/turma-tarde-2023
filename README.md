@@ -3451,7 +3451,7 @@ Criar um ou mais arquivos para a(s) classe(s)
 </details>
 
 <details>
-<summary>Aula 42 - dia 19 de Janeiro/2024: </summary>
+<summary>Aula 42 - dia 19 de Janeiro/2024: Banco de dados</summary>
 
 -Banco de dados não relacional - NoSql
 
